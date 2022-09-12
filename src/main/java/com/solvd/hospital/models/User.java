@@ -15,6 +15,7 @@ public class User {
     private String surname;
 
     private MedicalCard medicalCard;
+    
     public User() {
 
     }
