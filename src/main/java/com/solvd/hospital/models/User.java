@@ -1,6 +1,6 @@
 package com.solvd.hospital.models;
 
-public class User {
+public abstract class User {
 
     private long id;
 
@@ -14,7 +14,7 @@ public class User {
 
     private String surname;
 
-    private MedicalCard medicalCard;
+
 
     public User() {
 
@@ -75,13 +75,5 @@ public class User {
 
     public void setSurname(String surname) {
         this.surname = surname;
-    }
-
-    public MedicalCard getMedicalCard() {
-        return medicalCard;
-    }
-
-    public void setMedicalCard(MedicalCard medicalCard) {
-        this.medicalCard = medicalCard;
     }
 }
