@@ -34,6 +34,8 @@ public class MedicalCard {
 
     private List<Map.Entry <InfectionDisease,Date> > listOfTransferredInfections;
 
+    private  List<Allergy> listOfAllergies;
+
     public long getId() {
         return id;
     }
@@ -128,5 +130,13 @@ public class MedicalCard {
 
     public void setListOfTransferredInfections(List<Map.Entry<InfectionDisease, Date>> listOfTransferredInfections) {
         this.listOfTransferredInfections = listOfTransferredInfections;
+    }
+
+    public List<Allergy> getListOfAllergies() {
+        return listOfAllergies;
+    }
+
+    public void setListOfAllergies(List<Allergy> listOfAllergies) {
+        this.listOfAllergies = listOfAllergies;
     }
 }
