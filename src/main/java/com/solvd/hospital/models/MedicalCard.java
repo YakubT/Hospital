@@ -38,6 +38,8 @@ public class MedicalCard {
 
     private List<Vaccination> listOfVaccinations;
 
+    private List<SickLeave> listOfSickLeaves;
+
     public long getId() {
         return id;
     }
@@ -148,5 +150,13 @@ public class MedicalCard {
 
     public void setListOfVaccinations(List<Vaccination> listOfVaccinations) {
         this.listOfVaccinations = listOfVaccinations;
+    }
+
+    public List<SickLeave> getListOfSickLeaves() {
+        return listOfSickLeaves;
+    }
+
+    public void setListOfSickLeaves(List<SickLeave> listOfSickLeaves) {
+        this.listOfSickLeaves = listOfSickLeaves;
     }
 }
