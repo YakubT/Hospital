@@ -5,6 +5,7 @@ public class Allergy {
     private long id;
 
     private String nameOfDrug;
+    
     private long medicalCardId;
 
     public Allergy(){
