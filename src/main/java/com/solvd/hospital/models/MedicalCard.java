@@ -1,6 +1,8 @@
 package com.solvd.hospital.models;
 
 import java.util.Date;
+import java.util.List;
+import java.util.Map;
 
 import com.solvd.hospital.models.enums.BloodGroup;
 import com.solvd.hospital.models.enums.Gender;
@@ -29,6 +31,8 @@ public class MedicalCard {
     private boolean hepatitis;
 
     private long doctorId;
+
+    List<Map.Entry <InfectionDisease,Date> > listOfTransferredInfections;
 
     public long getId() {
         return id;
@@ -116,5 +120,13 @@ public class MedicalCard {
 
     public void setDoctorId(long doctorId) {
         this.doctorId = doctorId;
+    }
+
+    public List<Map.Entry<InfectionDisease, Date>> getListOfTransferredInfections() {
+        return listOfTransferredInfections;
+    }
+
+    public void setListOfTransferredInfections(List<Map.Entry<InfectionDisease, Date>> listOfTransferredInfections) {
+        this.listOfTransferredInfections = listOfTransferredInfections;
     }
 }
