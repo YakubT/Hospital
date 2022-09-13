@@ -9,10 +9,11 @@ public class Doctor extends Specialist {
     private List<MedicalField> listOfMedicalField;
 
     public Doctor() {
-
+        super();
     }
 
     public Doctor (List<MedicalCard> listOfMedicalCards, List<MedicalField> listOfMedicalField) {
+        super();
         this.listOfMedicalCards = listOfMedicalCards;
         this.listOfMedicalField = listOfMedicalField;
     }
