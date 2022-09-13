@@ -15,13 +15,14 @@ public class User {
     private String surname;
 
     private MedicalCard medicalCard;
-    
+
     public User() {
 
     }
 
     public User(long id, String login, String password, String name, String middleName, String surname) {
         this.id = id;
+        this.login = login;
         this.password = password;
         this.name = name;
         this.middleName = middleName;
@@ -34,6 +35,14 @@ public class User {
 
     public void setId(long id) {
         this.id = id;
+    }
+
+    public String getLogin() {
+        return  login;
+    }
+
+    public void setLogin(String login) {
+        this.login = login;
     }
 
     public String getPassword() {
