@@ -1,6 +1,6 @@
 package com.solvd.hospital.models;
 
-public abstract class User {
+public  class User {
 
     private long id;
 
