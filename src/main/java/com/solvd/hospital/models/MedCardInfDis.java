@@ -1,5 +1,7 @@
 package com.solvd.hospital.models;
 
+import java.util.Date;
+
 public class MedCardInfDis {
 
     private long id;
@@ -8,14 +10,17 @@ public class MedCardInfDis {
 
     private long infectionDiseaseID;
 
+    private Date date;
+
     public MedCardInfDis() {
 
     }
 
-    public MedCardInfDis(long id, long medicalCardsId, long infectionDiseaseID) {
+    public MedCardInfDis(long id, long medicalCardsId, long infectionDiseaseID, Date date) {
         this.id = id;
         this.medicalCardsId = medicalCardsId;
         this.infectionDiseaseID = infectionDiseaseID;
+        this.date = date;
     }
 
     public long getId() {
@@ -41,4 +46,12 @@ public class MedCardInfDis {
     public void setInfectionDiseaseID(long infectionDiseaseID) {
         this.infectionDiseaseID = infectionDiseaseID;
     }
+
+    public Date getDate(){
+        return  date;
+    }
+    public void setDate(Date date){
+        this.date =date;
+    }
+
 }

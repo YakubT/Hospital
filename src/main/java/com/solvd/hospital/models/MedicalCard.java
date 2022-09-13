@@ -32,7 +32,7 @@ public class MedicalCard {
 
     private long doctorId;
 
-    private List<Map.Entry <InfectionDisease,Date> > listOfTransferredInfections;
+    private List<MedCardInfDis> listOfTransferredInfections;
 
     private  List<Allergy> listOfAllergies;
 
@@ -128,11 +128,11 @@ public class MedicalCard {
         this.doctorId = doctorId;
     }
 
-    public List<Map.Entry<InfectionDisease, Date>> getListOfTransferredInfections() {
+    public List<MedCardInfDis> getListOfTransferredInfections() {
         return listOfTransferredInfections;
     }
 
-    public void setListOfTransferredInfections(List<Map.Entry<InfectionDisease, Date>> listOfTransferredInfections) {
+    public void setListOfTransferredInfections(List<MedCardInfDis> listOfTransferredInfections) {
         this.listOfTransferredInfections = listOfTransferredInfections;
     }
 
