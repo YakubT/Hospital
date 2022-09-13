@@ -8,11 +8,11 @@ public class MedCardInfDis {
 
     private long infectionDiseaseID;
 
-    MedCardInfDis() {
+    public MedCardInfDis() {
 
     }
 
-    MedCardInfDis(long id, long medicalCardsId, long infectionDiseaseID) {
+    public MedCardInfDis(long id, long medicalCardsId, long infectionDiseaseID) {
         this.id = id;
         this.medicalCardsId = medicalCardsId;
         this.infectionDiseaseID = infectionDiseaseID;

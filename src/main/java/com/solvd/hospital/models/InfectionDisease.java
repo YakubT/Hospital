@@ -6,11 +6,11 @@ public class InfectionDisease {
 
     private String name;
 
-    InfectionDisease() {
+    public InfectionDisease() {
 
     }
 
-    InfectionDisease(long id, String name) {
+    public InfectionDisease(long id, String name) {
         this.id  = id;
         this.name = name;
     }
