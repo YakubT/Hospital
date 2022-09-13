@@ -1,16 +1,10 @@
 package com.solvd.hospital.models;
 
+import java.util.List;
+
 public class Patient extends User {
 
     private MedicalCard medicalCard;
-
-    public Patient() {
-
-    }
-
-    public Patient (MedicalCard medicalCard) {
-        this.medicalCard = medicalCard;
-    }
 
     public MedicalCard getMedicalCard() {
         return medicalCard;
@@ -19,4 +13,5 @@ public class Patient extends User {
     public void setMedicalCard(MedicalCard medicalCard) {
         this.medicalCard = medicalCard;
     }
+
 }

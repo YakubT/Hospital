@@ -1,5 +1,7 @@
 package com.solvd.hospital.models;
 
+import java.util.List;
+
 public  class User {
 
     private long id;
@@ -14,7 +16,7 @@ public  class User {
 
     private String surname;
 
-
+    private List<Record> listOfRecords;
 
     public User() {
 
@@ -75,5 +77,13 @@ public  class User {
 
     public void setSurname(String surname) {
         this.surname = surname;
+    }
+
+    public List<Record> getListOfRecords() {
+        return listOfRecords;
+    }
+
+    public void setListOfRecords(List<Record> listOfRecords) {
+        this.listOfRecords = listOfRecords;
     }
 }
