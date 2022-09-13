@@ -4,9 +4,9 @@ import java.util.List;
 
 public class Doctor extends User {
 
-    List<MedicalCard> listOfMedicalCards;
+    private List<MedicalCard> listOfMedicalCards;
 
-    List<MedicalField> listOfMedicalField;
+    private List<MedicalField> listOfMedicalField;
 
     public Doctor() {
 
