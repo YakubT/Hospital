@@ -36,6 +36,8 @@ public class MedicalCard {
 
     private  List<Allergy> listOfAllergies;
 
+    private List<Vaccination> listOfVaccinations;
+
     public long getId() {
         return id;
     }
@@ -138,5 +140,13 @@ public class MedicalCard {
 
     public void setListOfAllergies(List<Allergy> listOfAllergies) {
         this.listOfAllergies = listOfAllergies;
+    }
+
+    public List<Vaccination> getListOfVaccinations() {
+        return listOfVaccinations;
+    }
+
+    public void setListOfVaccinations(List<Vaccination> listOfVaccinations) {
+        this.listOfVaccinations = listOfVaccinations;
     }
 }
