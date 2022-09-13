@@ -40,6 +40,8 @@ public class MedicalCard {
 
     private List<SickLeave> listOfSickLeaves;
 
+    private List<Prescribing> listOfPrescribings;
+
     public long getId() {
         return id;
     }
@@ -159,4 +161,13 @@ public class MedicalCard {
     public void setListOfSickLeaves(List<SickLeave> listOfSickLeaves) {
         this.listOfSickLeaves = listOfSickLeaves;
     }
+
+    public List<Prescribing> getListOfPrescribings() {
+        return listOfPrescribings;
+    }
+
+    public void setListOfPrescribings(List<Prescribing> listOfPrescribings) {
+        this.listOfPrescribings = listOfPrescribings;
+    }
+
 }
