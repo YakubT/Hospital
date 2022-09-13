@@ -6,12 +6,15 @@ public class Doctor extends User {
 
     List<MedicalCard> listOfMedicalCards;
 
+    List<MedicalField> listOfMedicalField;
+
     public Doctor() {
 
     }
 
-    public Doctor (List<MedicalCard> listOfMedicalCards) {
+    public Doctor (List<MedicalCard> listOfMedicalCards, List<MedicalField> listOfMedicalField) {
         this.listOfMedicalCards = listOfMedicalCards;
+        this.listOfMedicalField = listOfMedicalField;
     }
 
     public List<MedicalCard> getListOfMedicalCards() {
@@ -20,5 +23,13 @@ public class Doctor extends User {
 
     public void setListOfMedicalCards(List<MedicalCard> listOfMedicalCards) {
         this.listOfMedicalCards = listOfMedicalCards;
+    }
+
+    public List<MedicalField> getListOfMedicalField() {
+        return listOfMedicalField;
+    }
+
+    public void setListOfMedicalField(List<MedicalField> listOfMedicalField) {
+        this.listOfMedicalField = listOfMedicalField;
     }
 }
