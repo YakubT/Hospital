@@ -2,7 +2,7 @@ package com.solvd.hospital.models;
 
 import java.util.List;
 
-public class Doctor extends User {
+public class Doctor extends Specialist {
 
     private List<MedicalCard> listOfMedicalCards;
 
