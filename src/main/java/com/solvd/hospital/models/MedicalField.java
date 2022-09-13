@@ -1,18 +1,23 @@
 package com.solvd.hospital.models;
 
+import java.util.List;
+
 public class MedicalField {
 
-    long id;
+    private long id;
 
-    String name;
+    private String name;
+
+    private List<Doctor> listOfDoctors;
 
     public MedicalField() {
 
     }
 
-    public MedicalField(long id, String name) {
+    public MedicalField(long id, String name, List<Doctor> listOfDoctors) {
         this.id = id;
         this.name = name;
+        this.listOfDoctors = listOfDoctors;
     }
 
     public long getId() {
@@ -29,5 +34,13 @@ public class MedicalField {
 
     public void setName(String name) {
         this.name = name;
+    }
+
+    public List<Doctor> getListOfDoctors() {
+        return listOfDoctors;
+    }
+
+    public void setListOfDoctors(List<Doctor> listOfDoctors) {
+        this.listOfDoctors = listOfDoctors;
     }
 }
