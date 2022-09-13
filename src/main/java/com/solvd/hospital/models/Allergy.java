@@ -4,18 +4,17 @@ public class Allergy {
 
     private long id;
 
+    private String nameOfDrug;
     private long medicalCardId;
-
-    private long infectionDiseasesID;
 
     public Allergy(){
 
     }
 
-    public Allergy(long id, long medicalCardId, long infectionDiseasesID) {
+    public Allergy(long id, String nameOfDrug, long medicalCardId) {
         this.id = id;
         this.medicalCardId = medicalCardId;
-        this.infectionDiseasesID = infectionDiseasesID;
+        this.nameOfDrug = nameOfDrug;
     }
 
     public long getId() {
@@ -26,6 +25,14 @@ public class Allergy {
         this.id = id;
     }
 
+    public String getNameOfDrug() {
+        return nameOfDrug;
+    }
+
+    public void setNameOfDrug(String nameOfDrug) {
+        this.nameOfDrug = nameOfDrug;
+    }
+
     public long getMedicalCardId() {
         return medicalCardId;
     }
@@ -34,11 +41,4 @@ public class Allergy {
         this.medicalCardId = medicalCardId;
     }
 
-    public long getInfectionDiseasesID() {
-        return infectionDiseasesID;
-    }
-
-    public void setInfectionDiseasesID(long infectionDiseasesID) {
-        this.infectionDiseasesID = infectionDiseasesID;
-    }
 }
