@@ -4,7 +4,7 @@ import com.solvd.hospital.models.enums.TypeOfService;
 
 public class Service {
 
-    private long id;
+    private int id;
 
     private String name;
 
@@ -16,18 +16,18 @@ public class Service {
 
     }
 
-    public Service(long id, String name, TypeOfService type,double price) {
+    public Service(int id, String name, TypeOfService type,double price) {
         this.id = id;
         this.name = name;
         this.type = type;
         this.price = price;
     }
 
-    public long getId() {
+    public int getId() {
         return id;
     }
 
-    public void setId(long id) {
+    public void setId(int id) {
         this.id = id;
     }
 

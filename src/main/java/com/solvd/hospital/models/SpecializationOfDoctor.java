@@ -2,43 +2,43 @@ package com.solvd.hospital.models;
 
 public class SpecializationOfDoctor {
 
-    private long id;
+    private int id;
 
-    private long medicalFieldId;
+    private int medicalFieldId;
 
-    private long doctorId;
+    private int doctorId;
 
     public SpecializationOfDoctor() {
 
     }
 
-    public SpecializationOfDoctor(long id, long medicalFieldId, long doctorId) {
+    public SpecializationOfDoctor(int id, int medicalFieldId, int doctorId) {
         this.id = id;
         this.medicalFieldId = medicalFieldId;
         this.doctorId = doctorId;
     }
 
-    public long getId() {
+    public int getId() {
         return id;
     }
 
-    public void setId(long id) {
+    public void setId(int id) {
         this.id = id;
     }
 
-    public long getMedicalFieldId() {
+    public int getMedicalFieldId() {
         return medicalFieldId;
     }
 
-    public void setMedicalFieldId(long medicalFieldId) {
+    public void setMedicalFieldId(int medicalFieldId) {
         this.medicalFieldId = medicalFieldId;
     }
 
-    public long getDoctorId() {
+    public int getDoctorId() {
         return doctorId;
     }
 
-    public void setDoctorId(long doctorId) {
+    public void setDoctorId(int doctorId) {
         this.doctorId = doctorId;
     }
 }

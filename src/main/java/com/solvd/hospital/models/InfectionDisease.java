@@ -2,7 +2,7 @@ package com.solvd.hospital.models;
 
 public class InfectionDisease {
 
-    private long id;
+    private int id;
 
     private String name;
 
@@ -10,16 +10,16 @@ public class InfectionDisease {
 
     }
 
-    public InfectionDisease(long id, String name) {
+    public InfectionDisease(int id, String name) {
         this.id  = id;
         this.name = name;
     }
 
-    public long getId() {
+    public int getId() {
         return id;
     }
 
-    public void setId(long id) {
+    public void setId(int id) {
         this.id = id;
     }
 

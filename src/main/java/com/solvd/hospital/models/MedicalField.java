@@ -4,7 +4,7 @@ import java.util.List;
 
 public class MedicalField {
 
-    private long id;
+    private int id;
 
     private String name;
 
@@ -14,17 +14,17 @@ public class MedicalField {
 
     }
 
-    public MedicalField(long id, String name, List<Doctor> listOfDoctors) {
+    public MedicalField(int id, String name, List<Doctor> listOfDoctors) {
         this.id = id;
         this.name = name;
         this.listOfDoctors = listOfDoctors;
     }
 
-    public long getId() {
+    public int getId() {
         return id;
     }
 
-    public void setId(long id) {
+    public void setId(int id) {
         this.id = id;
     }
 

@@ -4,17 +4,17 @@ import java.util.Date;
 
 public class Record {
 
-    private long id;
+    private int id;
 
-    private long patientId;
+    private int patientId;
 
-    private long serviceId;
+    private int serviceId;
 
     private Date date;
 
-    private long specialistId;
+    private int specialistId;
 
-    public Record(long id, long patientId, long serviceId, Date date, long specialistId) {
+    public Record(int id, int patientId, int serviceId, Date date, int specialistId) {
         this.id = id;
         this.patientId = patientId;
         this.serviceId = serviceId;
@@ -22,27 +22,27 @@ public class Record {
         this.specialistId = specialistId;
     }
 
-    public long getId() {
+    public int getId() {
         return id;
     }
 
-    public void setId(long id) {
+    public void setId(int id) {
         this.id = id;
     }
 
-    public long getPatientId() {
+    public int getPatientId() {
         return patientId;
     }
 
-    public void setPatientId(long patientId) {
+    public void setPatientId(int patientId) {
         this.patientId = patientId;
     }
 
-    public long getServiceId() {
+    public int getServiceId() {
         return serviceId;
     }
 
-    public void setServiceId(long serviceId) {
+    public void setServiceId(int serviceId) {
         this.serviceId = serviceId;
     }
 
@@ -54,11 +54,11 @@ public class Record {
         this.date = date;
     }
 
-    public long getSpecialistId() {
+    public int getSpecialistId() {
         return specialistId;
     }
 
-    public void setSpecialistId(long specialistId) {
+    public void setSpecialistId(int specialistId) {
         this.specialistId = specialistId;
     }
 }

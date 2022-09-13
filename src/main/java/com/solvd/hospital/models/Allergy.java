@@ -2,27 +2,27 @@ package com.solvd.hospital.models;
 
 public class Allergy {
 
-    private long id;
+    private int id;
 
     private String nameOfDrug;
     
-    private long medicalCardId;
+    private int medicalCardId;
 
     public Allergy(){
 
     }
 
-    public Allergy(long id, String nameOfDrug, long medicalCardId) {
+    public Allergy(int id, String nameOfDrug, int medicalCardId) {
         this.id = id;
         this.medicalCardId = medicalCardId;
         this.nameOfDrug = nameOfDrug;
     }
 
-    public long getId() {
+    public int getId() {
         return id;
     }
 
-    public void setId(long id) {
+    public void setId(int id) {
         this.id = id;
     }
 
@@ -34,11 +34,11 @@ public class Allergy {
         this.nameOfDrug = nameOfDrug;
     }
 
-    public long getMedicalCardId() {
+    public int getMedicalCardId() {
         return medicalCardId;
     }
 
-    public void setMedicalCardId(long medicalCardId) {
+    public void setMedicalCardId(int medicalCardId) {
         this.medicalCardId = medicalCardId;
     }
 

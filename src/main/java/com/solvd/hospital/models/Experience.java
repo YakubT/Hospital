@@ -2,7 +2,7 @@ package com.solvd.hospital.models;
 
 public class Experience {
 
-    private long id;
+    private int id;
 
     private String description;
 
@@ -14,18 +14,18 @@ public class Experience {
 
     }
 
-    public Experience(long id, String description, int countYears, int specialistId) {
+    public Experience(int id, String description, int countYears, int specialistId) {
         this.id = id;
         this.description = description;
         this.countYears = countYears;
         this.specialistId = specialistId;
     }
 
-    public long getId() {
+    public int getId() {
         return id;
     }
 
-    public void setId(long id) {
+    public void setId(int id) {
         this.id = id;
     }
 

@@ -4,11 +4,11 @@ import java.util.Date;
 
 public class MedCardInfDis {
 
-    private long id;
+    private int id;
 
-    private long medicalCardsId;
+    private int medicalCardsId;
 
-    private long infectionDiseaseID;
+    private int infectionDiseaseID;
 
     private Date date;
 
@@ -16,34 +16,34 @@ public class MedCardInfDis {
 
     }
 
-    public MedCardInfDis(long id, long medicalCardsId, long infectionDiseaseID, Date date) {
+    public MedCardInfDis(int id, int medicalCardsId, int infectionDiseaseID, Date date) {
         this.id = id;
         this.medicalCardsId = medicalCardsId;
         this.infectionDiseaseID = infectionDiseaseID;
         this.date = date;
     }
 
-    public long getId() {
+    public int getId() {
         return id;
     }
 
-    public void setId(long id) {
+    public void setId(int id) {
         this.id = id;
     }
 
-    public long getMedicalCardsId() {
+    public int getMedicalCardsId() {
         return medicalCardsId;
     }
 
-    public void setMedicalCardsId(long medicalCardsId) {
+    public void setMedicalCardsId(int medicalCardsId) {
         this.medicalCardsId = medicalCardsId;
     }
 
-    public long getInfectionDiseaseID() {
+    public int getInfectionDiseaseID() {
         return infectionDiseaseID;
     }
 
-    public void setInfectionDiseaseID(long infectionDiseaseID) {
+    public void setInfectionDiseaseID(int infectionDiseaseID) {
         this.infectionDiseaseID = infectionDiseaseID;
     }
 

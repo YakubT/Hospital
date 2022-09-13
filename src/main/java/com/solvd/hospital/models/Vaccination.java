@@ -4,13 +4,13 @@ import java.util.Date;
 
 public class Vaccination {
 
-    private long id;
+    private int id;
 
     private String name;
 
     private Date date;
 
-    private long medicalCardId;
+    private int medicalCardId;
 
     private String negativeManifestation;
 
@@ -18,7 +18,7 @@ public class Vaccination {
 
     }
 
-    public Vaccination (long id, String name, Date date, long medicalCardId, String negativeManifestation) {
+    public Vaccination (int id, String name, Date date, int medicalCardId, String negativeManifestation) {
         this.id = id;
         this.name = name;
         this.date = date;
@@ -26,11 +26,11 @@ public class Vaccination {
         this.negativeManifestation = negativeManifestation;
     }
 
-    public long getId() {
+    public int getId() {
         return id;
     }
 
-    public void setId(long id) {
+    public void setId(int id) {
         this.id = id;
     }
 
@@ -50,11 +50,11 @@ public class Vaccination {
         this.date = date;
     }
 
-    public long getMedicalCardId() {
+    public int getMedicalCardId() {
         return medicalCardId;
     }
 
-    public void setMedicalCardId(long medicalCardId) {
+    public void setMedicalCardId(int medicalCardId) {
         this.medicalCardId = medicalCardId;
     }
 

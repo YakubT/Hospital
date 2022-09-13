@@ -10,9 +10,9 @@ import com.solvd.hospital.models.enums.Invalidity;
 
 public class MedicalCard {
 
-    private long id;
+    private int id;
 
-    private long patientId;
+    private int patientId;
 
     private Date dateOfBirth;
 
@@ -30,7 +30,7 @@ public class MedicalCard {
 
     private boolean hepatitis;
 
-    private long doctorId;
+    private int doctorId;
 
     private List<MedCardInfDis> listOfTransferredInfections;
 
@@ -42,19 +42,19 @@ public class MedicalCard {
 
     private List<Prescribing> listOfPrescribings;
 
-    public long getId() {
+    public int getId() {
         return id;
     }
 
-    public void setId(long id) {
+    public void setId(int id) {
         this.id = id;
     }
 
-    public long getPatientId() {
+    public int getPatientId() {
         return patientId;
     }
 
-    public void setPatientId(long patientId) {
+    public void setPatientId(int patientId) {
         this.patientId = patientId;
     }
 
@@ -122,11 +122,11 @@ public class MedicalCard {
         this.hepatitis = hepatitis;
     }
 
-    public long getDoctorId() {
+    public int getDoctorId() {
         return doctorId;
     }
 
-    public void setDoctorId(long doctorId) {
+    public void setDoctorId(int doctorId) {
         this.doctorId = doctorId;
     }
 
