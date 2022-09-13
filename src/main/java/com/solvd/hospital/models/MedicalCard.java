@@ -32,7 +32,7 @@ public class MedicalCard {
 
     private long doctorId;
 
-    List<Map.Entry <InfectionDisease,Date> > listOfTransferredInfections;
+    private List<Map.Entry <InfectionDisease,Date> > listOfTransferredInfections;
 
     public long getId() {
         return id;
