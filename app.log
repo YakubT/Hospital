@@ -1,0 +1,13 @@
+2022-09-26 12:16:28.475 INFO [main] [com.solvd.hospital.contollers.Main.main(Main.java:12)] - Hello
+2022-09-26 12:42:33.419 ERROR [main] [com.solvd.hospital.dao.ConnectionPool.create(ConnectionPool.java:51)] - java.sql.SQLException: No suitable driver found for jdbc:mysql:://localhost:3306?serverTimezone=UTC//hospital
+2022-09-26 12:43:46.430 ERROR [main] [com.solvd.hospital.dao.ConnectionPool.create(ConnectionPool.java:51)] - java.sql.SQLException: No suitable driver found for jdbc:mysql://localhost:3306/hospital?serverTimezone=UTC
+2022-09-26 12:44:51.889 INFO [main] [com.solvd.hospital.dao.ConnectionPool.create(ConnectionPool.java:41)] - jdbc:mysql://localhost:3306/hospital?serverTimezone=UTC
+2022-09-26 12:44:51.905 ERROR [main] [com.solvd.hospital.dao.ConnectionPool.create(ConnectionPool.java:52)] - java.sql.SQLException: No suitable driver found for jdbc:mysql://localhost:3306/hospital?serverTimezone=UTC
+2022-09-26 12:45:23.784 INFO [main] [com.solvd.hospital.dao.ConnectionPool.create(ConnectionPool.java:41)] - jdbc:mysql://localhost:3306//hospital?serverTimezone=UTC
+2022-09-26 12:45:23.799 ERROR [main] [com.solvd.hospital.dao.ConnectionPool.create(ConnectionPool.java:52)] - java.sql.SQLException: No suitable driver found for jdbc:mysql://localhost:3306//hospital?serverTimezone=UTC
+2022-09-26 12:45:55.742 INFO [main] [com.solvd.hospital.dao.ConnectionPool.create(ConnectionPool.java:41)] - jdbc:mysql://localhost:3306/hospital
+2022-09-26 12:45:55.757 ERROR [main] [com.solvd.hospital.dao.ConnectionPool.create(ConnectionPool.java:52)] - java.sql.SQLException: No suitable driver found for jdbc:mysql://localhost:3306/hospital
+2022-09-26 12:49:14.118 INFO [main] [com.solvd.hospital.dao.ConnectionPool.create(ConnectionPool.java:41)] - jdbc:mysql://localhost:3306/hospital
+2022-09-26 12:49:15.035 ERROR [main] [com.solvd.hospital.dao.ConnectionPool.create(ConnectionPool.java:52)] - java.sql.SQLException: The server time zone value '��������� (����)' is unrecognized or represents more than one time zone. You must configure either the server or JDBC driver (via the 'serverTimezone' configuration property) to use a more specifc time zone value if you want to utilize time zone support.
+2022-09-26 12:49:47.327 INFO [main] [com.solvd.hospital.dao.ConnectionPool.create(ConnectionPool.java:41)] - jdbc:mysql://localhost:3306/hospital?serverTimezone=UTC
+2022-09-26 12:50:49.729 INFO [main] [com.solvd.hospital.dao.ConnectionPool.create(ConnectionPool.java:41)] - jdbc:mysql://localhost:3306/hospital?serverTimezone=UTC

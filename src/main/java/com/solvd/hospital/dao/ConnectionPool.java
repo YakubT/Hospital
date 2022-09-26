@@ -1,18 +1,21 @@
 package com.solvd.hospital.dao;
 
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+import org.apache.logging.log4j.core.config.Property;
+
+import java.io.FileInputStream;
+import java.io.IOException;
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Properties;
 
 public class ConnectionPool {
 
-    private  String url;
-
-    private String user;
-
-    private String password;
+    private  static final Logger LOGGER = LogManager.getLogger();
 
     private List<Connection> pool;
 
@@ -24,11 +27,28 @@ public class ConnectionPool {
 
     private ConnectionPool() {};
 
-    public void create (String url, String user, String password) throws SQLException {
+    public void create () throws SQLException {
         pool = new ArrayList<>(INITIAL_POOL_SIZE);
         usedConnections = new ArrayList<>();
+        String url,user,password;
+        url=user=password = null;
+        Properties property = new Properties();
+        try (FileInputStream fis = new FileInputStream("src/main/resources/config.properties")) {
+            property.load(fis);
+            url = property.getProperty("db.url");
+            user = property.getProperty("db.user");
+            password = property.getProperty("db.password");
+        }
+        catch (IOException e){
+            LOGGER.error(e);
+        }
+        try {
         for (int i=0;i<INITIAL_POOL_SIZE;i++) {
-            pool.add(createConnection(url,user,password));
+                pool.add(createConnection(url, user, password));
+            }
+        }
+        catch (SQLException e) {
+            LOGGER.error(e);
         }
     }
 
@@ -57,8 +77,28 @@ public class ConnectionPool {
     public int getCountOFFreeConnections() {
         return pool.size();
     }
-    private static Connection createConnection(String url, String user, String password) throws SQLException {
+    private Connection createConnection(String url, String user, String password) throws SQLException {
         return DriverManager.getConnection(url,user,password);
     }
 
+    public void shutdown() {
+        for (Connection con:pool){
+            try {
+                con.close();
+            }
+            catch (SQLException e){
+                LOGGER.error(e);
+            }
+        }
+        for (Connection con:usedConnections){
+            try {
+                con.close();
+            }
+            catch (SQLException e){
+                LOGGER.error(e);
+            }
+        }
+        pool = null;
+        usedConnections = null;
+    }
 }
