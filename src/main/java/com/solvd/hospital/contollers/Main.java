@@ -21,7 +21,7 @@ public class Main {
     public static void main (String[] args) {
         AllergyService allergyService = new AllergyService();
         Allergy allergy = new Allergy();
-        allergy.setNameOfDrug("oo");
+        allergy.setNameOfDrug("bo");
         allergy.setMedicalCardId(3);
         allergyService.create(allergy);
     }
