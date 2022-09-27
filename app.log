@@ -11,3 +11,11 @@
 2022-09-26 12:49:15.035 ERROR [main] [com.solvd.hospital.dao.сonnectionpool.ConnectionPool.create(ConnectionPool.java:52)] - java.sql.SQLException: The server time zone value '��������� (����)' is unrecognized or represents more than one time zone. You must configure either the server or JDBC driver (via the 'serverTimezone' configuration property) to use a more specifc time zone value if you want to utilize time zone support.
 2022-09-26 12:49:47.327 INFO [main] [com.solvd.hospital.dao.сonnectionpool.ConnectionPool.create(ConnectionPool.java:41)] - jdbc:mysql://localhost:3306/hospital?serverTimezone=UTC
 2022-09-26 12:50:49.729 INFO [main] [com.solvd.hospital.dao.сonnectionpool.ConnectionPool.create(ConnectionPool.java:41)] - jdbc:mysql://localhost:3306/hospital?serverTimezone=UTC
+2022-09-27 09:28:19.712 ERROR [main] [com.solvd.hospital.dao.mysql.AllergyDao.getById(AllergyDao.java:39)] - java.sql.SQLException: Before start of result set
+2022-09-27 09:29:13.696 ERROR [main] [com.solvd.hospital.dao.mysql.AllergyDao.getById(AllergyDao.java:39)] - java.sql.SQLException: Before start of result set
+2022-09-27 09:30:35.264 ERROR [main] [com.solvd.hospital.dao.mysql.AllergyDao.getById(AllergyDao.java:39)] - java.sql.SQLException: Before start of result set
+2022-09-27 09:31:55.759 ERROR [main] [com.solvd.hospital.dao.mysql.AllergyDao.getById(AllergyDao.java:39)] - java.sql.SQLException: Before start of result set
+2022-09-27 09:32:55.254 ERROR [main] [com.solvd.hospital.dao.mysql.AllergyDao.getById(AllergyDao.java:41)] - java.sql.SQLException: Operation not allowed after ResultSet closed
+2022-09-27 09:33:25.505 INFO [main] [com.solvd.hospital.contollers.Main.main(Main.java:20)] - 1
+2022-09-27 09:33:25.505 INFO [main] [com.solvd.hospital.contollers.Main.main(Main.java:21)] - 3
+2022-09-27 09:33:25.505 INFO [main] [com.solvd.hospital.contollers.Main.main(Main.java:22)] - Paracetamol

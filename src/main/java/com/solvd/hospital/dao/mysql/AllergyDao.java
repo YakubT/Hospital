@@ -25,14 +25,16 @@ public class AllergyDao extends AbstractMySqlDao implements IAllergyDao {
     public Allergy getById(int id) {
         Connection connection = ConnectionPool.getInstance().getConnection();
         try (PreparedStatement ps = connection.prepareStatement("Select id, name_of_drug, Medical_card_id From Allergies " +
-                "Where id =?")) {
+                "Where id = ?")) {
             ps.setInt(1,id);
             ResultSet rs = ps.executeQuery();
             Allergy allergy = new Allergy();
-            allergy.setId(rs.getInt("id"));
-            allergy.setMedicalCardId(rs.getInt("Medical_card_id"));
-            allergy.setNameOfDrug(rs.getString("name_of_drug"));
-            ps.close();
+            while (rs.next()) {
+                allergy.setId(rs.getInt("id"));
+                allergy.setMedicalCardId(rs.getInt("Medical_card_id"));
+                allergy.setNameOfDrug(rs.getString("name_of_drug"));
+            }
+            rs.close();
             return allergy;
         }
         catch (SQLException e){
