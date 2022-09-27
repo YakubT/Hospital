@@ -16,14 +16,16 @@ public class Main {
         AllergyDao allergyDao = new AllergyDao();
         try {
             ConnectionPool.getInstance().create();
-            Allergy allergy = allergyDao.getById(1);
-            LOGGER.info(allergy.getId());
-            LOGGER.info(allergy.getMedicalCardId());
-            LOGGER.info(allergy.getNameOfDrug());
-            ConnectionPool.getInstance().shutdown();
+            Allergy allergy = new Allergy(2,"Decatelen",3);
+            allergyDao.update(allergy);
+            Allergy allergy2 = allergyDao.getById(2);
+            LOGGER.info(allergy2.getId());
+            LOGGER.info(allergy2.getMedicalCardId());
+            LOGGER.info(allergy2.getNameOfDrug());
         }
         catch (SQLException e) {
             LOGGER.error(e);
         }
+        ConnectionPool.getInstance().shutdown();
     }
 }
