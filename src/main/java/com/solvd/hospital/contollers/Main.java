@@ -21,7 +21,9 @@ public class Main {
             ConnectionPool connectionPool = ConnectionPool.getInstance();
             connectionPool.create();
             User user = userDao.getById(1);
-            LOGGER.info(user.getSurname());
+            LOGGER.info(user.getName());;
+            userDao.remove(17);
+
         }
         catch (SQLException e) {
             LOGGER.error(e);

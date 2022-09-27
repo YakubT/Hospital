@@ -34,6 +34,9 @@ public class UserDao extends AbstractMySqlDao implements IUserDao {
         catch (SQLException e) {
             LOGGER.error(e);
         }
+        finally {
+            ConnectionPool.getInstance().releaseConnection(connection);
+        }
     }
 
     @Override
@@ -59,13 +62,16 @@ public class UserDao extends AbstractMySqlDao implements IUserDao {
         catch (SQLException e){
             LOGGER.error(e);
         }
+        finally {
+            ConnectionPool.getInstance().releaseConnection(connection);
+        }
         return null;
     }
 
     @Override
     public void remove(int id) {
         Connection connection = ConnectionPool.getInstance().getConnection();
-        String query = "Delete From Allergies where id = ?";
+        String query = "Delete From Users where id = ?";
         try (PreparedStatement ps = connection.prepareStatement(query)){
             ps.setInt(1,id);
             ps.execute();
@@ -73,11 +79,31 @@ public class UserDao extends AbstractMySqlDao implements IUserDao {
         catch (SQLException e) {
             LOGGER.error(e);
         }
+        finally {
+            ConnectionPool.getInstance().releaseConnection(connection);
+        }
     }
 
     @Override
     public void update(User object) {
-
+        Connection connection = ConnectionPool.getInstance().getConnection();
+        String query = "Update Users Set login = ?, password = ?, name = ?, surname = ?, middle_name = ?, role = ? Where id = ?";
+        try (PreparedStatement ps = connection.prepareStatement(query)){
+            ps.setString(1,object.getLogin());
+            ps.setString(2,object.getPassword());
+            ps.setString(3,object.getName());
+            ps.setString(4,object.getSurname());
+            ps.setString(5,object.getMiddleName());
+            ps.setInt(6, object.getRole());
+            ps.setInt(7,object.getId());
+            ps.execute();
+        }
+        catch (SQLException e) {
+            LOGGER.error(e);
+        }
+        finally {
+            ConnectionPool.getInstance().releaseConnection(connection);
+        }
     }
 
     @Override
