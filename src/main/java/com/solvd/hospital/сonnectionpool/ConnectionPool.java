@@ -32,7 +32,7 @@ public class ConnectionPool {
         String url,user,password;
         url=user=password = null;
         Properties property = new Properties();
-        try (FileInputStream fis = new FileInputStream("src/main/resources/config.properties")) {
+        try (FileInputStream fis = new FileInputStream("src/main/resources/db.properties")) {
             property.load(fis);
             url = property.getProperty("db.url");
             user = property.getProperty("db.user");
