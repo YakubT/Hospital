@@ -1,5 +1,6 @@
 package com.solvd.hospital.contollers;
 
+import com.solvd.hospital.dao.mysql.PatientDao;
 import com.solvd.hospital.dao.mysql.UserDao;
 import com.solvd.hospital.models.User;
 import org.apache.logging.log4j.Logger;
@@ -20,7 +21,8 @@ public class Main {
         try {
             ConnectionPool connectionPool = ConnectionPool.getInstance();
             connectionPool.create();
-            LOGGER.info(userDao.getUsers().get(1).getName());
+            PatientDao patientDao = new PatientDao();
+            LOGGER.info(patientDao.getPatients().get(0).getName());
         }
         catch (SQLException e) {
             LOGGER.error(e);

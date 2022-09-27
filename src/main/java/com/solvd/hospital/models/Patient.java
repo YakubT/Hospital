@@ -4,14 +4,14 @@ import java.util.List;
 
 public class Patient extends User {
 
-    private MedicalCard medicalCard;
+    private int medicalCardId;
 
-    public MedicalCard getMedicalCard() {
-        return medicalCard;
+    public int getMedicalCardId() {
+        return medicalCardId;
     }
 
-    public void setMedicalCard(MedicalCard medicalCard) {
-        this.medicalCard = medicalCard;
+    public void setMedicalCardId(int medicalCardId) {
+        this.medicalCardId = medicalCardId;
     }
 
 }

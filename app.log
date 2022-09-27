@@ -48,3 +48,10 @@
 2022-09-27 12:30:48.137 INFO [main] [com.solvd.hospital.contollers.Main.main(Main.java:24)] - TOLIA
 2022-09-27 12:59:03.132 INFO [main] [com.solvd.hospital.contollers.Main.main(Main.java:23)] - TOLIA
 2022-09-27 12:59:12.515 INFO [main] [com.solvd.hospital.contollers.Main.main(Main.java:23)] - Vitalii
+2022-09-27 14:35:39.214 ERROR [main] [com.solvd.hospital.dao.mysql.PatientDao.getById(PatientDao.java:49)] - java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ', users.id = 1' at line 1
+2022-09-27 14:36:38.338 ERROR [main] [com.solvd.hospital.dao.mysql.PatientDao.getById(PatientDao.java:49)] - java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ', users.id = 3' at line 1
+2022-09-27 14:37:27.997 ERROR [main] [com.solvd.hospital.dao.mysql.PatientDao.getById(PatientDao.java:49)] - java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ', users.id = 3' at line 1
+2022-09-27 14:38:09.931 ERROR [main] [com.solvd.hospital.dao.mysql.PatientDao.getById(PatientDao.java:49)] - java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ', users.id = 3' at line 1
+2022-09-27 14:40:18.736 INFO [main] [com.solvd.hospital.contollers.Main.main(Main.java:25)] - 2
+2022-09-27 14:42:25.178 INFO [main] [com.solvd.hospital.contollers.Main.main(Main.java:25)] - 2
+2022-09-27 14:42:58.209 INFO [main] [com.solvd.hospital.contollers.Main.main(Main.java:25)] - Vitalii
