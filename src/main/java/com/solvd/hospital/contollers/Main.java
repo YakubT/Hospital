@@ -3,9 +3,11 @@ package com.solvd.hospital.contollers;
 import com.solvd.hospital.dao.mysql.PatientDao;
 import com.solvd.hospital.dao.mysql.UserDao;
 import com.solvd.hospital.models.User;
+import com.solvd.hospital.services.MyBatis.AllergyService;
 import org.apache.logging.log4j.Logger;
 import org.apache.logging.log4j.LogManager;
 
+import java.io.IOException;
 import java.sql.SQLException;
 
 import com.solvd.hospital.dao.mysql.AllergyDao;
@@ -17,16 +19,10 @@ public class Main {
     private static final Logger LOGGER = LogManager.getLogger(Main.class);
 
     public static void main (String[] args) {
-        UserDao userDao = new UserDao();
-        try {
-            ConnectionPool connectionPool = ConnectionPool.getInstance();
-            connectionPool.create();
-            PatientDao patientDao = new PatientDao();
-            LOGGER.info(patientDao.getPatients().get(0).getName());
-        }
-        catch (SQLException e) {
-            LOGGER.error(e);
-        }
-        ConnectionPool.getInstance().shutdown();
+        AllergyService allergyService = new AllergyService();
+        Allergy allergy = new Allergy();
+        allergy.setNameOfDrug("oo");
+        allergy.setMedicalCardId(3);
+        allergyService.create(allergy);
     }
 }

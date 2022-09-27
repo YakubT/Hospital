@@ -1,5 +1,7 @@
 package com.solvd.hospital.models;
 
+import org.apache.ibatis.annotations.ResultType;
+
 public class Allergy {
 
     private int id;

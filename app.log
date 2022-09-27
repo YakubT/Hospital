@@ -55,3 +55,158 @@
 2022-09-27 14:40:18.736 INFO [main] [com.solvd.hospital.contollers.Main.main(Main.java:25)] - 2
 2022-09-27 14:42:25.178 INFO [main] [com.solvd.hospital.contollers.Main.main(Main.java:25)] - 2
 2022-09-27 14:42:58.209 INFO [main] [com.solvd.hospital.contollers.Main.main(Main.java:25)] - Vitalii
+2022-09-27 18:10:48.599 DEBUG [main] [org.apache.ibatis.logging.LogFactory.setImplementation(LogFactory.java:128)] - Logging initialized using 'class org.apache.ibatis.logging.log4j2.Log4j2Impl' adapter.
+2022-09-27 18:10:48.615 DEBUG [main] [org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:306)] - PooledDataSource forcefully closed/removed all connections.
+2022-09-27 18:13:53.559 DEBUG [main] [org.apache.ibatis.logging.LogFactory.setImplementation(LogFactory.java:128)] - Logging initialized using 'class org.apache.ibatis.logging.log4j2.Log4j2Impl' adapter.
+2022-09-27 18:13:53.581 DEBUG [main] [org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:306)] - PooledDataSource forcefully closed/removed all connections.
+2022-09-27 18:14:29.510 DEBUG [main] [org.apache.ibatis.logging.LogFactory.setImplementation(LogFactory.java:128)] - Logging initialized using 'class org.apache.ibatis.logging.log4j2.Log4j2Impl' adapter.
+2022-09-27 18:14:29.525 DEBUG [main] [org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:306)] - PooledDataSource forcefully closed/removed all connections.
+2022-09-27 18:14:29.525 DEBUG [main] [org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:306)] - PooledDataSource forcefully closed/removed all connections.
+2022-09-27 18:14:29.525 DEBUG [main] [org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:306)] - PooledDataSource forcefully closed/removed all connections.
+2022-09-27 18:14:29.525 DEBUG [main] [org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:306)] - PooledDataSource forcefully closed/removed all connections.
+2022-09-27 18:14:51.164 DEBUG [main] [org.apache.ibatis.logging.LogFactory.setImplementation(LogFactory.java:128)] - Logging initialized using 'class org.apache.ibatis.logging.log4j2.Log4j2Impl' adapter.
+2022-09-27 18:14:51.172 DEBUG [main] [org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:306)] - PooledDataSource forcefully closed/removed all connections.
+2022-09-27 18:14:51.172 DEBUG [main] [org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:306)] - PooledDataSource forcefully closed/removed all connections.
+2022-09-27 18:14:51.172 DEBUG [main] [org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:306)] - PooledDataSource forcefully closed/removed all connections.
+2022-09-27 18:14:51.172 DEBUG [main] [org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:306)] - PooledDataSource forcefully closed/removed all connections.
+2022-09-27 18:15:32.315 DEBUG [main] [org.apache.ibatis.logging.LogFactory.setImplementation(LogFactory.java:128)] - Logging initialized using 'class org.apache.ibatis.logging.log4j2.Log4j2Impl' adapter.
+2022-09-27 18:15:32.331 DEBUG [main] [org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:306)] - PooledDataSource forcefully closed/removed all connections.
+2022-09-27 18:15:32.331 DEBUG [main] [org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:306)] - PooledDataSource forcefully closed/removed all connections.
+2022-09-27 18:15:32.331 DEBUG [main] [org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:306)] - PooledDataSource forcefully closed/removed all connections.
+2022-09-27 18:15:32.331 DEBUG [main] [org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:306)] - PooledDataSource forcefully closed/removed all connections.
+2022-09-27 18:21:03.020 DEBUG [main] [org.apache.ibatis.logging.LogFactory.setImplementation(LogFactory.java:128)] - Logging initialized using 'class org.apache.ibatis.logging.log4j2.Log4j2Impl' adapter.
+2022-09-27 18:21:03.042 DEBUG [main] [org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:306)] - PooledDataSource forcefully closed/removed all connections.
+2022-09-27 18:21:03.042 DEBUG [main] [org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:306)] - PooledDataSource forcefully closed/removed all connections.
+2022-09-27 18:21:03.042 DEBUG [main] [org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:306)] - PooledDataSource forcefully closed/removed all connections.
+2022-09-27 18:21:03.042 DEBUG [main] [org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:306)] - PooledDataSource forcefully closed/removed all connections.
+2022-09-27 18:23:04.486 DEBUG [main] [org.apache.ibatis.logging.LogFactory.setImplementation(LogFactory.java:128)] - Logging initialized using 'class org.apache.ibatis.logging.log4j2.Log4j2Impl' adapter.
+2022-09-27 18:23:04.502 DEBUG [main] [org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:306)] - PooledDataSource forcefully closed/removed all connections.
+2022-09-27 18:23:04.502 DEBUG [main] [org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:306)] - PooledDataSource forcefully closed/removed all connections.
+2022-09-27 18:23:04.502 DEBUG [main] [org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:306)] - PooledDataSource forcefully closed/removed all connections.
+2022-09-27 18:23:04.502 DEBUG [main] [org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:306)] - PooledDataSource forcefully closed/removed all connections.
+2022-09-27 18:23:47.632 DEBUG [main] [org.apache.ibatis.logging.LogFactory.setImplementation(LogFactory.java:128)] - Logging initialized using 'class org.apache.ibatis.logging.log4j2.Log4j2Impl' adapter.
+2022-09-27 18:23:47.654 DEBUG [main] [org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:306)] - PooledDataSource forcefully closed/removed all connections.
+2022-09-27 18:23:47.654 DEBUG [main] [org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:306)] - PooledDataSource forcefully closed/removed all connections.
+2022-09-27 18:23:47.654 DEBUG [main] [org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:306)] - PooledDataSource forcefully closed/removed all connections.
+2022-09-27 18:23:47.654 DEBUG [main] [org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:306)] - PooledDataSource forcefully closed/removed all connections.
+2022-09-27 18:24:18.564 DEBUG [main] [org.apache.ibatis.logging.LogFactory.setImplementation(LogFactory.java:128)] - Logging initialized using 'class org.apache.ibatis.logging.log4j2.Log4j2Impl' adapter.
+2022-09-27 18:24:18.580 DEBUG [main] [org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:306)] - PooledDataSource forcefully closed/removed all connections.
+2022-09-27 18:24:18.580 DEBUG [main] [org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:306)] - PooledDataSource forcefully closed/removed all connections.
+2022-09-27 18:24:18.580 DEBUG [main] [org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:306)] - PooledDataSource forcefully closed/removed all connections.
+2022-09-27 18:24:18.580 DEBUG [main] [org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:306)] - PooledDataSource forcefully closed/removed all connections.
+2022-09-27 18:25:54.286 DEBUG [main] [org.apache.ibatis.logging.LogFactory.setImplementation(LogFactory.java:128)] - Logging initialized using 'class org.apache.ibatis.logging.log4j2.Log4j2Impl' adapter.
+2022-09-27 18:25:54.317 DEBUG [main] [org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:306)] - PooledDataSource forcefully closed/removed all connections.
+2022-09-27 18:25:54.317 DEBUG [main] [org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:306)] - PooledDataSource forcefully closed/removed all connections.
+2022-09-27 18:25:54.317 DEBUG [main] [org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:306)] - PooledDataSource forcefully closed/removed all connections.
+2022-09-27 18:25:54.317 DEBUG [main] [org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:306)] - PooledDataSource forcefully closed/removed all connections.
+2022-09-27 18:27:28.065 ERROR [main] [com.solvd.hospital.services.MyBatis.AllergyService.create(AllergyService.java:29)] - java.io.IOException: Could not find resource resorces//mybatis-config.xml
+2022-09-27 18:27:50.748 DEBUG [main] [org.apache.ibatis.logging.LogFactory.setImplementation(LogFactory.java:128)] - Logging initialized using 'class org.apache.ibatis.logging.log4j2.Log4j2Impl' adapter.
+2022-09-27 18:27:50.763 DEBUG [main] [org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:306)] - PooledDataSource forcefully closed/removed all connections.
+2022-09-27 18:27:50.763 DEBUG [main] [org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:306)] - PooledDataSource forcefully closed/removed all connections.
+2022-09-27 18:27:50.763 DEBUG [main] [org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:306)] - PooledDataSource forcefully closed/removed all connections.
+2022-09-27 18:27:50.763 DEBUG [main] [org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:306)] - PooledDataSource forcefully closed/removed all connections.
+2022-09-27 18:28:37.535 DEBUG [main] [org.apache.ibatis.logging.LogFactory.setImplementation(LogFactory.java:128)] - Logging initialized using 'class org.apache.ibatis.logging.log4j2.Log4j2Impl' adapter.
+2022-09-27 18:28:37.557 DEBUG [main] [org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:306)] - PooledDataSource forcefully closed/removed all connections.
+2022-09-27 18:28:37.557 DEBUG [main] [org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:306)] - PooledDataSource forcefully closed/removed all connections.
+2022-09-27 18:28:37.557 DEBUG [main] [org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:306)] - PooledDataSource forcefully closed/removed all connections.
+2022-09-27 18:28:37.557 DEBUG [main] [org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:306)] - PooledDataSource forcefully closed/removed all connections.
+2022-09-27 18:29:29.919 DEBUG [main] [org.apache.ibatis.logging.LogFactory.setImplementation(LogFactory.java:128)] - Logging initialized using 'class org.apache.ibatis.logging.log4j2.Log4j2Impl' adapter.
+2022-09-27 18:29:29.935 DEBUG [main] [org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:306)] - PooledDataSource forcefully closed/removed all connections.
+2022-09-27 18:29:29.935 DEBUG [main] [org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:306)] - PooledDataSource forcefully closed/removed all connections.
+2022-09-27 18:29:29.935 DEBUG [main] [org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:306)] - PooledDataSource forcefully closed/removed all connections.
+2022-09-27 18:29:29.935 DEBUG [main] [org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:306)] - PooledDataSource forcefully closed/removed all connections.
+2022-09-27 18:30:17.195 DEBUG [main] [org.apache.ibatis.logging.LogFactory.setImplementation(LogFactory.java:128)] - Logging initialized using 'class org.apache.ibatis.logging.log4j2.Log4j2Impl' adapter.
+2022-09-27 18:30:17.217 DEBUG [main] [org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:306)] - PooledDataSource forcefully closed/removed all connections.
+2022-09-27 18:30:17.217 DEBUG [main] [org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:306)] - PooledDataSource forcefully closed/removed all connections.
+2022-09-27 18:30:17.217 DEBUG [main] [org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:306)] - PooledDataSource forcefully closed/removed all connections.
+2022-09-27 18:30:17.217 DEBUG [main] [org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:306)] - PooledDataSource forcefully closed/removed all connections.
+2022-09-27 18:30:47.097 DEBUG [main] [org.apache.ibatis.logging.LogFactory.setImplementation(LogFactory.java:128)] - Logging initialized using 'class org.apache.ibatis.logging.log4j2.Log4j2Impl' adapter.
+2022-09-27 18:30:47.113 DEBUG [main] [org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:306)] - PooledDataSource forcefully closed/removed all connections.
+2022-09-27 18:30:47.113 DEBUG [main] [org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:306)] - PooledDataSource forcefully closed/removed all connections.
+2022-09-27 18:30:47.113 DEBUG [main] [org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:306)] - PooledDataSource forcefully closed/removed all connections.
+2022-09-27 18:30:47.113 DEBUG [main] [org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:306)] - PooledDataSource forcefully closed/removed all connections.
+2022-09-27 18:31:47.643 DEBUG [main] [org.apache.ibatis.logging.LogFactory.setImplementation(LogFactory.java:128)] - Logging initialized using 'class org.apache.ibatis.logging.log4j2.Log4j2Impl' adapter.
+2022-09-27 18:31:47.663 DEBUG [main] [org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:306)] - PooledDataSource forcefully closed/removed all connections.
+2022-09-27 18:31:47.663 DEBUG [main] [org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:306)] - PooledDataSource forcefully closed/removed all connections.
+2022-09-27 18:31:47.663 DEBUG [main] [org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:306)] - PooledDataSource forcefully closed/removed all connections.
+2022-09-27 18:31:47.663 DEBUG [main] [org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:306)] - PooledDataSource forcefully closed/removed all connections.
+2022-09-27 18:32:02.065 DEBUG [main] [org.apache.ibatis.logging.LogFactory.setImplementation(LogFactory.java:128)] - Logging initialized using 'class org.apache.ibatis.logging.log4j2.Log4j2Impl' adapter.
+2022-09-27 18:32:02.080 DEBUG [main] [org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:306)] - PooledDataSource forcefully closed/removed all connections.
+2022-09-27 18:32:02.080 DEBUG [main] [org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:306)] - PooledDataSource forcefully closed/removed all connections.
+2022-09-27 18:32:02.080 DEBUG [main] [org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:306)] - PooledDataSource forcefully closed/removed all connections.
+2022-09-27 18:32:02.080 DEBUG [main] [org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:306)] - PooledDataSource forcefully closed/removed all connections.
+2022-09-27 18:41:08.055 DEBUG [main] [org.apache.ibatis.logging.LogFactory.setImplementation(LogFactory.java:128)] - Logging initialized using 'class org.apache.ibatis.logging.log4j2.Log4j2Impl' adapter.
+2022-09-27 18:41:08.071 DEBUG [main] [org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:306)] - PooledDataSource forcefully closed/removed all connections.
+2022-09-27 18:41:08.071 DEBUG [main] [org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:306)] - PooledDataSource forcefully closed/removed all connections.
+2022-09-27 18:41:08.071 DEBUG [main] [org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:306)] - PooledDataSource forcefully closed/removed all connections.
+2022-09-27 18:41:08.071 DEBUG [main] [org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:306)] - PooledDataSource forcefully closed/removed all connections.
+2022-09-27 18:43:44.526 DEBUG [main] [org.apache.ibatis.logging.LogFactory.setImplementation(LogFactory.java:128)] - Logging initialized using 'class org.apache.ibatis.logging.log4j2.Log4j2Impl' adapter.
+2022-09-27 18:43:44.542 DEBUG [main] [org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:306)] - PooledDataSource forcefully closed/removed all connections.
+2022-09-27 18:43:44.542 DEBUG [main] [org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:306)] - PooledDataSource forcefully closed/removed all connections.
+2022-09-27 18:43:44.542 DEBUG [main] [org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:306)] - PooledDataSource forcefully closed/removed all connections.
+2022-09-27 18:43:44.542 DEBUG [main] [org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:306)] - PooledDataSource forcefully closed/removed all connections.
+2022-09-27 18:49:53.335 DEBUG [main] [org.apache.ibatis.logging.LogFactory.setImplementation(LogFactory.java:128)] - Logging initialized using 'class org.apache.ibatis.logging.log4j2.Log4j2Impl' adapter.
+2022-09-27 18:49:53.350 DEBUG [main] [org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:306)] - PooledDataSource forcefully closed/removed all connections.
+2022-09-27 18:49:53.350 DEBUG [main] [org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:306)] - PooledDataSource forcefully closed/removed all connections.
+2022-09-27 18:49:53.350 DEBUG [main] [org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:306)] - PooledDataSource forcefully closed/removed all connections.
+2022-09-27 18:49:53.350 DEBUG [main] [org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:306)] - PooledDataSource forcefully closed/removed all connections.
+2022-09-27 18:52:35.379 DEBUG [main] [org.apache.ibatis.logging.LogFactory.setImplementation(LogFactory.java:128)] - Logging initialized using 'class org.apache.ibatis.logging.log4j2.Log4j2Impl' adapter.
+2022-09-27 18:52:35.394 DEBUG [main] [org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:306)] - PooledDataSource forcefully closed/removed all connections.
+2022-09-27 18:52:35.394 DEBUG [main] [org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:306)] - PooledDataSource forcefully closed/removed all connections.
+2022-09-27 18:52:35.394 DEBUG [main] [org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:306)] - PooledDataSource forcefully closed/removed all connections.
+2022-09-27 18:52:35.410 DEBUG [main] [org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:306)] - PooledDataSource forcefully closed/removed all connections.
+2022-09-27 18:58:04.351 DEBUG [main] [org.apache.ibatis.logging.LogFactory.setImplementation(LogFactory.java:128)] - Logging initialized using 'class org.apache.ibatis.logging.log4j2.Log4j2Impl' adapter.
+2022-09-27 18:58:04.367 DEBUG [main] [org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:306)] - PooledDataSource forcefully closed/removed all connections.
+2022-09-27 18:58:04.367 DEBUG [main] [org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:306)] - PooledDataSource forcefully closed/removed all connections.
+2022-09-27 18:58:04.367 DEBUG [main] [org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:306)] - PooledDataSource forcefully closed/removed all connections.
+2022-09-27 18:58:04.367 DEBUG [main] [org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:306)] - PooledDataSource forcefully closed/removed all connections.
+2022-09-27 18:58:28.266 DEBUG [main] [org.apache.ibatis.logging.LogFactory.setImplementation(LogFactory.java:128)] - Logging initialized using 'class org.apache.ibatis.logging.log4j2.Log4j2Impl' adapter.
+2022-09-27 18:58:28.297 DEBUG [main] [org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:306)] - PooledDataSource forcefully closed/removed all connections.
+2022-09-27 18:58:28.297 DEBUG [main] [org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:306)] - PooledDataSource forcefully closed/removed all connections.
+2022-09-27 18:58:28.297 DEBUG [main] [org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:306)] - PooledDataSource forcefully closed/removed all connections.
+2022-09-27 18:58:28.297 DEBUG [main] [org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:306)] - PooledDataSource forcefully closed/removed all connections.
+2022-09-27 19:01:29.705 DEBUG [main] [org.apache.ibatis.logging.LogFactory.setImplementation(LogFactory.java:128)] - Logging initialized using 'class org.apache.ibatis.logging.log4j2.Log4j2Impl' adapter.
+2022-09-27 19:01:29.736 DEBUG [main] [org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:306)] - PooledDataSource forcefully closed/removed all connections.
+2022-09-27 19:01:29.736 DEBUG [main] [org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:306)] - PooledDataSource forcefully closed/removed all connections.
+2022-09-27 19:01:29.736 DEBUG [main] [org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:306)] - PooledDataSource forcefully closed/removed all connections.
+2022-09-27 19:01:29.736 DEBUG [main] [org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:306)] - PooledDataSource forcefully closed/removed all connections.
+2022-09-27 19:01:29.805 DEBUG [main] [org.apache.ibatis.transaction.jdbc.JdbcTransaction.openConnection(JdbcTransaction.java:132)] - Opening JDBC Connection
+2022-09-27 19:01:30.554 DEBUG [main] [org.apache.ibatis.datasource.pooled.PooledDataSource.popConnection(PooledDataSource.java:380)] - Created connection 1158124724.
+2022-09-27 19:01:30.554 DEBUG [main] [org.apache.ibatis.transaction.jdbc.JdbcTransaction.setDesiredAutoCommit(JdbcTransaction.java:98)] - Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@450794b4]
+2022-09-27 19:01:30.554 DEBUG [main] [org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:139)] - ==>  Preparing: INSERT INTO ALLERGIES(name_of_drug, Medical_card_id) values (?,?) 
+2022-09-27 19:01:30.607 DEBUG [main] [org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:139)] - ==> Parameters: oo(String), 3(Integer)
+2022-09-27 19:01:30.654 DEBUG [main] [org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:139)] - <==    Updates: 1
+2022-09-27 19:01:30.654 DEBUG [main] [org.apache.ibatis.transaction.jdbc.JdbcTransaction.rollback(JdbcTransaction.java:78)] - Rolling back JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@450794b4]
+2022-09-27 19:01:30.654 DEBUG [main] [org.apache.ibatis.transaction.jdbc.JdbcTransaction.resetAutoCommit(JdbcTransaction.java:120)] - Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@450794b4]
+2022-09-27 19:01:30.654 DEBUG [main] [org.apache.ibatis.transaction.jdbc.JdbcTransaction.close(JdbcTransaction.java:88)] - Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@450794b4]
+2022-09-27 19:01:30.654 DEBUG [main] [org.apache.ibatis.datasource.pooled.PooledDataSource.pushConnection(PooledDataSource.java:334)] - Returned connection 1158124724 to pool.
+2022-09-27 19:02:33.918 DEBUG [main] [org.apache.ibatis.logging.LogFactory.setImplementation(LogFactory.java:128)] - Logging initialized using 'class org.apache.ibatis.logging.log4j2.Log4j2Impl' adapter.
+2022-09-27 19:02:33.950 DEBUG [main] [org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:306)] - PooledDataSource forcefully closed/removed all connections.
+2022-09-27 19:02:33.950 DEBUG [main] [org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:306)] - PooledDataSource forcefully closed/removed all connections.
+2022-09-27 19:02:33.950 DEBUG [main] [org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:306)] - PooledDataSource forcefully closed/removed all connections.
+2022-09-27 19:02:33.950 DEBUG [main] [org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:306)] - PooledDataSource forcefully closed/removed all connections.
+2022-09-27 19:02:34.019 DEBUG [main] [org.apache.ibatis.transaction.jdbc.JdbcTransaction.openConnection(JdbcTransaction.java:132)] - Opening JDBC Connection
+2022-09-27 19:02:34.721 DEBUG [main] [org.apache.ibatis.datasource.pooled.PooledDataSource.popConnection(PooledDataSource.java:380)] - Created connection 1158124724.
+2022-09-27 19:02:34.721 DEBUG [main] [org.apache.ibatis.transaction.jdbc.JdbcTransaction.setDesiredAutoCommit(JdbcTransaction.java:98)] - Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@450794b4]
+2022-09-27 19:02:34.721 DEBUG [main] [org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:139)] - ==>  Preparing: INSERT INTO ALLERGIES(name_of_drug, Medical_card_id) values (?,?) 
+2022-09-27 19:02:34.768 DEBUG [main] [org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:139)] - ==> Parameters: oo(String), 3(Integer)
+2022-09-27 19:02:34.784 DEBUG [main] [org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:139)] - <==    Updates: 1
+2022-09-27 19:02:34.784 DEBUG [main] [org.apache.ibatis.transaction.jdbc.JdbcTransaction.commit(JdbcTransaction.java:69)] - Committing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@450794b4]
+2022-09-27 19:02:34.792 DEBUG [main] [org.apache.ibatis.transaction.jdbc.JdbcTransaction.resetAutoCommit(JdbcTransaction.java:120)] - Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@450794b4]
+2022-09-27 19:02:34.792 DEBUG [main] [org.apache.ibatis.transaction.jdbc.JdbcTransaction.close(JdbcTransaction.java:88)] - Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@450794b4]
+2022-09-27 19:02:34.792 DEBUG [main] [org.apache.ibatis.datasource.pooled.PooledDataSource.pushConnection(PooledDataSource.java:334)] - Returned connection 1158124724 to pool.
+2022-09-27 19:11:41.599 DEBUG [main] [org.apache.ibatis.logging.LogFactory.setImplementation(LogFactory.java:128)] - Logging initialized using 'class org.apache.ibatis.logging.log4j2.Log4j2Impl' adapter.
+2022-09-27 19:11:41.615 DEBUG [main] [org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:306)] - PooledDataSource forcefully closed/removed all connections.
+2022-09-27 19:11:41.615 DEBUG [main] [org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:306)] - PooledDataSource forcefully closed/removed all connections.
+2022-09-27 19:11:41.615 DEBUG [main] [org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:306)] - PooledDataSource forcefully closed/removed all connections.
+2022-09-27 19:11:41.615 DEBUG [main] [org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:306)] - PooledDataSource forcefully closed/removed all connections.
+2022-09-27 19:11:41.668 DEBUG [main] [org.apache.ibatis.transaction.jdbc.JdbcTransaction.openConnection(JdbcTransaction.java:132)] - Opening JDBC Connection
+2022-09-27 19:11:42.100 DEBUG [main] [org.apache.ibatis.datasource.pooled.PooledDataSource.popConnection(PooledDataSource.java:380)] - Created connection 809860628.
+2022-09-27 19:11:42.100 DEBUG [main] [org.apache.ibatis.transaction.jdbc.JdbcTransaction.setDesiredAutoCommit(JdbcTransaction.java:98)] - Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@30457e14]
+2022-09-27 19:11:42.100 DEBUG [main] [org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:139)] - ==>  Preparing: INSERT INTO ALLERGIES(name_of_drug, Medical_card_id) values (?,?) 
+2022-09-27 19:11:42.132 DEBUG [main] [org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:139)] - ==> Parameters: oo(String), 3(Integer)
+2022-09-27 19:11:42.147 DEBUG [main] [org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:139)] - <==    Updates: 1
+2022-09-27 19:11:42.147 DEBUG [main] [org.apache.ibatis.transaction.jdbc.JdbcTransaction.commit(JdbcTransaction.java:69)] - Committing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@30457e14]
+2022-09-27 19:11:42.158 DEBUG [main] [org.apache.ibatis.transaction.jdbc.JdbcTransaction.resetAutoCommit(JdbcTransaction.java:120)] - Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@30457e14]
+2022-09-27 19:11:42.158 DEBUG [main] [org.apache.ibatis.transaction.jdbc.JdbcTransaction.close(JdbcTransaction.java:88)] - Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@30457e14]
+2022-09-27 19:11:42.158 DEBUG [main] [org.apache.ibatis.datasource.pooled.PooledDataSource.pushConnection(PooledDataSource.java:334)] - Returned connection 809860628 to pool.
