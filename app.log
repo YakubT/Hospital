@@ -37,3 +37,5 @@
 2022-09-27 10:28:02.213 INFO [main] [com.solvd.hospital.contollers.Main.main(Main.java:22)] - 2
 2022-09-27 10:28:02.213 INFO [main] [com.solvd.hospital.contollers.Main.main(Main.java:23)] - 3
 2022-09-27 10:28:02.213 INFO [main] [com.solvd.hospital.contollers.Main.main(Main.java:24)] - Decatelen
+2022-09-27 12:11:51.395 INFO [main] [com.solvd.hospital.contollers.Main.main(Main.java:24)] - 1
+2022-09-27 12:12:07.060 INFO [main] [com.solvd.hospital.contollers.Main.main(Main.java:24)] - null

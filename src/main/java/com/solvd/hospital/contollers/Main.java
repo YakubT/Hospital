@@ -1,5 +1,7 @@
 package com.solvd.hospital.contollers;
 
+import com.solvd.hospital.dao.mysql.UserDao;
+import com.solvd.hospital.models.User;
 import org.apache.logging.log4j.Logger;
 import org.apache.logging.log4j.LogManager;
 
@@ -14,15 +16,12 @@ public class Main {
     private static final Logger LOGGER = LogManager.getLogger(Main.class);
 
     public static void main (String[] args) {
-        AllergyDao allergyDao = new AllergyDao();
+        UserDao userDao = new UserDao();
         try {
-            ConnectionPool.getInstance().create();
-            Allergy allergy = new Allergy(2,"Decatelen",3);
-            allergyDao.update(allergy);
-            Allergy allergy2 = allergyDao.getById(2);
-            LOGGER.info(allergy2.getId());
-            LOGGER.info(allergy2.getMedicalCardId());
-            LOGGER.info(allergy2.getNameOfDrug());
+            ConnectionPool connectionPool = ConnectionPool.getInstance();
+            connectionPool.create();
+            User user = userDao.getById(1);
+            LOGGER.info(user.getSurname());
         }
         catch (SQLException e) {
             LOGGER.error(e);
