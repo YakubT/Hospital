@@ -1,12 +1,13 @@
 package com.solvd.hospital.contollers;
 
-import com.solvd.hospital.dao.mysql.AllergyDao;
-import com.solvd.hospital.models.Allergy;
-import com.solvd.hospital.сonnectionpool.ConnectionPool;
 import org.apache.logging.log4j.Logger;
 import org.apache.logging.log4j.LogManager;
 
 import java.sql.SQLException;
+
+import com.solvd.hospital.dao.mysql.AllergyDao;
+import com.solvd.hospital.models.Allergy;
+import com.solvd.hospital.сonnectionpool.ConnectionPool;
 
 public class Main {
 

@@ -18,17 +18,20 @@ public  class User {
 
     private List<Record> listOfRecords;
 
+    private int role;
+
     public User() {
 
     }
 
-    public User(int id, String login, String password, String name, String middleName, String surname) {
+    public User(int id, String login, String password, String name, String middleName, String surname, int role) {
         this.id = id;
         this.login = login;
         this.password = password;
         this.name = name;
         this.middleName = middleName;
         this.surname = surname;
+        this.role = role;
     }
 
     public int getId() {
@@ -85,5 +88,13 @@ public  class User {
 
     public void setListOfRecords(List<Record> listOfRecords) {
         this.listOfRecords = listOfRecords;
+    }
+
+    public int getRole() {
+        return role;
+    }
+
+    public void setRole(int role) {
+        this.role = role;
     }
 }
