@@ -1,6 +1,5 @@
 package com.solvd.hospital.dao.mysql;
 
-import com.solvd.hospital.models.Allergy;
 import org.apache.logging.log4j.Logger;
 import org.apache.logging.log4j.LogManager;
 
@@ -8,6 +7,7 @@ import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
+import java.util.ArrayList;
 import java.util.List;
 
 import com.solvd.hospital.dao.IUserDao;
@@ -108,6 +108,31 @@ public class UserDao extends AbstractMySqlDao implements IUserDao {
 
     @Override
     public List<User> getUsers() {
-        return null;
+        List<User> users = new ArrayList<User>();
+        Connection connection = ConnectionPool.getInstance().getConnection();
+        try (PreparedStatement ps = connection.prepareStatement("Select id, login, password, name, surname, " +
+                "middle_name, role From Users ")) {
+            ResultSet rs = ps.executeQuery();
+            while (rs.next()) {
+                User user = new User();
+                user.setId(rs.getInt("id"));
+                user.setLogin(rs.getString("login"));
+                user.setPassword(rs.getString("password"));
+                user.setName(rs.getString("name"));
+                user.setSurname(rs.getString("surname"));
+                user.setMiddleName(rs.getString("middle_name"));
+                user.setRole(rs.getInt("role"));
+                users.add(user);
+            }
+            rs.close();
+            return users;
+        }
+        catch (SQLException e){
+            LOGGER.error(e);
+        }
+        finally {
+            ConnectionPool.getInstance().releaseConnection(connection);
+        }
+        return users;
     }
 }

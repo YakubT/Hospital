@@ -20,10 +20,7 @@ public class Main {
         try {
             ConnectionPool connectionPool = ConnectionPool.getInstance();
             connectionPool.create();
-            User user = userDao.getById(1);
-            LOGGER.info(user.getName());;
-            userDao.remove(17);
-
+            LOGGER.info(userDao.getUsers().get(1).getName());
         }
         catch (SQLException e) {
             LOGGER.error(e);
