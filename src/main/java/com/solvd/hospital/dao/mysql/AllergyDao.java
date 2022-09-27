@@ -26,6 +26,9 @@ public class AllergyDao extends AbstractMySqlDao implements IAllergyDao {
         catch (SQLException e) {
             LOGGER.error(e);
         }
+        finally {
+            ConnectionPool.getInstance().releaseConnection(connection);
+        }
 
     }
 
@@ -48,6 +51,9 @@ public class AllergyDao extends AbstractMySqlDao implements IAllergyDao {
         catch (SQLException e){
             LOGGER.error(e);
         }
+        finally {
+            ConnectionPool.getInstance().releaseConnection(connection);
+        }
         return null;
     }
 
@@ -61,6 +67,9 @@ public class AllergyDao extends AbstractMySqlDao implements IAllergyDao {
         }
         catch (SQLException e) {
             LOGGER.error(e);
+        }
+        finally {
+            ConnectionPool.getInstance().releaseConnection(connection);
         }
     }
 
@@ -76,6 +85,9 @@ public class AllergyDao extends AbstractMySqlDao implements IAllergyDao {
         }
         catch (SQLException e) {
             LOGGER.error(e);
+        }
+        finally {
+            ConnectionPool.getInstance().releaseConnection(connection);
         }
     }
 }

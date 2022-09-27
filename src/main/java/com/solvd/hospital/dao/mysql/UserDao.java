@@ -64,7 +64,15 @@ public class UserDao extends AbstractMySqlDao implements IUserDao {
 
     @Override
     public void remove(int id) {
-
+        Connection connection = ConnectionPool.getInstance().getConnection();
+        String query = "Delete From Allergies where id = ?";
+        try (PreparedStatement ps = connection.prepareStatement(query)){
+            ps.setInt(1,id);
+            ps.execute();
+        }
+        catch (SQLException e) {
+            LOGGER.error(e);
+        }
     }
 
     @Override
