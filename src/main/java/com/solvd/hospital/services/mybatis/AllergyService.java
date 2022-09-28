@@ -1,4 +1,5 @@
-package com.solvd.hospital.services.MyBatis;
+package com.solvd.hospital.services.mybatis;
+
 
 
 import org.apache.ibatis.session.SqlSession;
@@ -9,12 +10,12 @@ import org.apache.logging.log4j.Logger;
 
 import com.solvd.hospital.dao.IAllergyDao;
 import com.solvd.hospital.services.IAllergyService;
+import com.solvd.hospital.services.mybatis.utility.MyBatisFactory;
 import com.solvd.hospital.models.Allergy;
 
 public class AllergyService implements IAllergyService {
 
     private static final Logger LOGGER = LogManager.getLogger(AllergyService.class);
-    private static final String resource = "mybatis/mybatis-config.xml";
 
     private static final SqlSessionFactory sessionFactory = MyBatisFactory.getSqlSessionFactory();
 

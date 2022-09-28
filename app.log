@@ -99,7 +99,7 @@
 2022-09-27 18:25:54.317 DEBUG [main] [org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:306)] - PooledDataSource forcefully closed/removed all connections.
 2022-09-27 18:25:54.317 DEBUG [main] [org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:306)] - PooledDataSource forcefully closed/removed all connections.
 2022-09-27 18:25:54.317 DEBUG [main] [org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:306)] - PooledDataSource forcefully closed/removed all connections.
-2022-09-27 18:27:28.065 ERROR [main] [com.solvd.hospital.services.MyBatis.AllergyService.create(AllergyService.java:29)] - java.io.IOException: Could not find resource resorces//mybatis-config.xml
+2022-09-27 18:27:28.065 ERROR [main] [com.solvd.hospital.services.mybatis.AllergyService.create(AllergyService.java:29)] - java.io.IOException: Could not find resource resorces//mybatis-config.xml
 2022-09-27 18:27:50.748 DEBUG [main] [org.apache.ibatis.logging.LogFactory.setImplementation(LogFactory.java:128)] - Logging initialized using 'class org.apache.ibatis.logging.log4j2.Log4j2Impl' adapter.
 2022-09-27 18:27:50.763 DEBUG [main] [org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:306)] - PooledDataSource forcefully closed/removed all connections.
 2022-09-27 18:27:50.763 DEBUG [main] [org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:306)] - PooledDataSource forcefully closed/removed all connections.
@@ -255,7 +255,7 @@
 2022-09-28 15:23:10.975 DEBUG [main] [org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:306)] - PooledDataSource forcefully closed/removed all connections.
 2022-09-28 15:23:10.976 DEBUG [main] [org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:306)] - PooledDataSource forcefully closed/removed all connections.
 2022-09-28 15:23:10.976 DEBUG [main] [org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:306)] - PooledDataSource forcefully closed/removed all connections.
-2022-09-28 15:23:52.081 ERROR [main] [com.solvd.hospital.services.MyBatis.AllergyService.create(AllergyService.java:34)] - java.io.IOException: Could not find resource resources/mybatis/mybatis-config.xml
+2022-09-28 15:23:52.081 ERROR [main] [com.solvd.hospital.services.mybatis.AllergyService.create(AllergyService.java:34)] - java.io.IOException: Could not find resource resources/mybatis/mybatis-config.xml
 2022-09-28 15:24:03.902 DEBUG [main] [org.apache.ibatis.logging.LogFactory.setImplementation(LogFactory.java:128)] - Logging initialized using 'class org.apache.ibatis.logging.log4j2.Log4j2Impl' adapter.
 2022-09-28 15:24:03.915 DEBUG [main] [org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:306)] - PooledDataSource forcefully closed/removed all connections.
 2022-09-28 15:24:03.916 DEBUG [main] [org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:306)] - PooledDataSource forcefully closed/removed all connections.
@@ -311,3 +311,73 @@
 2022-09-28 16:04:25.506 DEBUG [main] [org.apache.ibatis.transaction.jdbc.JdbcTransaction.resetAutoCommit(JdbcTransaction.java:120)] - Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@63034ed1]
 2022-09-28 16:04:25.507 DEBUG [main] [org.apache.ibatis.transaction.jdbc.JdbcTransaction.close(JdbcTransaction.java:88)] - Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@63034ed1]
 2022-09-28 16:04:25.507 DEBUG [main] [org.apache.ibatis.datasource.pooled.PooledDataSource.pushConnection(PooledDataSource.java:334)] - Returned connection 1661161169 to pool.
+2022-09-28 16:21:54.086 DEBUG [main] [org.apache.ibatis.logging.LogFactory.setImplementation(LogFactory.java:128)] - Logging initialized using 'class org.apache.ibatis.logging.log4j2.Log4j2Impl' adapter.
+2022-09-28 16:21:54.102 DEBUG [main] [org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:306)] - PooledDataSource forcefully closed/removed all connections.
+2022-09-28 16:21:54.102 DEBUG [main] [org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:306)] - PooledDataSource forcefully closed/removed all connections.
+2022-09-28 16:21:54.103 DEBUG [main] [org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:306)] - PooledDataSource forcefully closed/removed all connections.
+2022-09-28 16:21:54.103 DEBUG [main] [org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:306)] - PooledDataSource forcefully closed/removed all connections.
+2022-09-28 16:21:54.170 DEBUG [main] [org.apache.ibatis.transaction.jdbc.JdbcTransaction.openConnection(JdbcTransaction.java:132)] - Opening JDBC Connection
+2022-09-28 16:21:54.625 DEBUG [main] [org.apache.ibatis.datasource.pooled.PooledDataSource.popConnection(PooledDataSource.java:380)] - Created connection 589309113.
+2022-09-28 16:21:54.626 DEBUG [main] [org.apache.ibatis.transaction.jdbc.JdbcTransaction.setDesiredAutoCommit(JdbcTransaction.java:98)] - Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@232024b9]
+2022-09-28 16:21:54.628 DEBUG [main] [org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:139)] - ==>  Preparing: INSERT INTO ALLERGIES(name_of_drug, Medical_card_id) values (?,?) 
+2022-09-28 16:21:54.661 DEBUG [main] [org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:139)] - ==> Parameters: bo(String), 3(Integer)
+2022-09-28 16:21:54.664 DEBUG [main] [org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:139)] - <==    Updates: 1
+2022-09-28 16:21:54.664 DEBUG [main] [org.apache.ibatis.transaction.jdbc.JdbcTransaction.commit(JdbcTransaction.java:69)] - Committing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@232024b9]
+2022-09-28 16:21:54.669 DEBUG [main] [org.apache.ibatis.transaction.jdbc.JdbcTransaction.resetAutoCommit(JdbcTransaction.java:120)] - Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@232024b9]
+2022-09-28 16:21:54.669 DEBUG [main] [org.apache.ibatis.transaction.jdbc.JdbcTransaction.close(JdbcTransaction.java:88)] - Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@232024b9]
+2022-09-28 16:21:54.670 DEBUG [main] [org.apache.ibatis.datasource.pooled.PooledDataSource.pushConnection(PooledDataSource.java:334)] - Returned connection 589309113 to pool.
+2022-09-28 16:23:44.135 DEBUG [main] [org.apache.ibatis.logging.LogFactory.setImplementation(LogFactory.java:128)] - Logging initialized using 'class org.apache.ibatis.logging.log4j2.Log4j2Impl' adapter.
+2022-09-28 16:23:44.148 DEBUG [main] [org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:306)] - PooledDataSource forcefully closed/removed all connections.
+2022-09-28 16:23:44.148 DEBUG [main] [org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:306)] - PooledDataSource forcefully closed/removed all connections.
+2022-09-28 16:23:44.148 DEBUG [main] [org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:306)] - PooledDataSource forcefully closed/removed all connections.
+2022-09-28 16:23:44.149 DEBUG [main] [org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:306)] - PooledDataSource forcefully closed/removed all connections.
+2022-09-28 16:23:44.210 DEBUG [main] [org.apache.ibatis.transaction.jdbc.JdbcTransaction.openConnection(JdbcTransaction.java:132)] - Opening JDBC Connection
+2022-09-28 16:23:44.657 DEBUG [main] [org.apache.ibatis.datasource.pooled.PooledDataSource.popConnection(PooledDataSource.java:380)] - Created connection 589309113.
+2022-09-28 16:23:44.658 DEBUG [main] [org.apache.ibatis.transaction.jdbc.JdbcTransaction.setDesiredAutoCommit(JdbcTransaction.java:98)] - Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@232024b9]
+2022-09-28 16:23:44.660 DEBUG [main] [org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:139)] - ==>  Preparing: Delete From Allergies where id = ? 
+2022-09-28 16:23:44.693 DEBUG [main] [org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:139)] - ==> Parameters: 5(Integer)
+2022-09-28 16:23:44.698 DEBUG [main] [org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:139)] - <==    Updates: 1
+2022-09-28 16:23:44.698 DEBUG [main] [org.apache.ibatis.transaction.jdbc.JdbcTransaction.commit(JdbcTransaction.java:69)] - Committing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@232024b9]
+2022-09-28 16:23:44.703 DEBUG [main] [org.apache.ibatis.transaction.jdbc.JdbcTransaction.resetAutoCommit(JdbcTransaction.java:120)] - Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@232024b9]
+2022-09-28 16:23:44.704 DEBUG [main] [org.apache.ibatis.transaction.jdbc.JdbcTransaction.close(JdbcTransaction.java:88)] - Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@232024b9]
+2022-09-28 16:23:44.704 DEBUG [main] [org.apache.ibatis.datasource.pooled.PooledDataSource.pushConnection(PooledDataSource.java:334)] - Returned connection 589309113 to pool.
+2022-09-28 16:23:44.704 DEBUG [main] [org.apache.ibatis.transaction.jdbc.JdbcTransaction.openConnection(JdbcTransaction.java:132)] - Opening JDBC Connection
+2022-09-28 16:23:44.704 DEBUG [main] [org.apache.ibatis.datasource.pooled.PooledDataSource.popConnection(PooledDataSource.java:369)] - Checked out connection 589309113 from pool.
+2022-09-28 16:23:44.704 DEBUG [main] [org.apache.ibatis.transaction.jdbc.JdbcTransaction.setDesiredAutoCommit(JdbcTransaction.java:98)] - Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@232024b9]
+2022-09-28 16:23:44.705 DEBUG [main] [org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:139)] - ==>  Preparing: Delete From Allergies where id = ? 
+2022-09-28 16:23:44.706 DEBUG [main] [org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:139)] - ==> Parameters: 7(Integer)
+2022-09-28 16:23:44.707 DEBUG [main] [org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:139)] - <==    Updates: 1
+2022-09-28 16:23:44.707 DEBUG [main] [org.apache.ibatis.transaction.jdbc.JdbcTransaction.commit(JdbcTransaction.java:69)] - Committing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@232024b9]
+2022-09-28 16:23:44.710 DEBUG [main] [org.apache.ibatis.transaction.jdbc.JdbcTransaction.resetAutoCommit(JdbcTransaction.java:120)] - Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@232024b9]
+2022-09-28 16:23:44.711 DEBUG [main] [org.apache.ibatis.transaction.jdbc.JdbcTransaction.close(JdbcTransaction.java:88)] - Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@232024b9]
+2022-09-28 16:23:44.711 DEBUG [main] [org.apache.ibatis.datasource.pooled.PooledDataSource.pushConnection(PooledDataSource.java:334)] - Returned connection 589309113 to pool.
+2022-09-28 16:23:44.712 DEBUG [main] [org.apache.ibatis.transaction.jdbc.JdbcTransaction.openConnection(JdbcTransaction.java:132)] - Opening JDBC Connection
+2022-09-28 16:23:44.712 DEBUG [main] [org.apache.ibatis.datasource.pooled.PooledDataSource.popConnection(PooledDataSource.java:369)] - Checked out connection 589309113 from pool.
+2022-09-28 16:23:44.712 DEBUG [main] [org.apache.ibatis.transaction.jdbc.JdbcTransaction.setDesiredAutoCommit(JdbcTransaction.java:98)] - Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@232024b9]
+2022-09-28 16:23:44.713 DEBUG [main] [org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:139)] - ==>  Preparing: Delete From Allergies where id = ? 
+2022-09-28 16:23:44.713 DEBUG [main] [org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:139)] - ==> Parameters: 8(Integer)
+2022-09-28 16:23:44.715 DEBUG [main] [org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:139)] - <==    Updates: 1
+2022-09-28 16:23:44.715 DEBUG [main] [org.apache.ibatis.transaction.jdbc.JdbcTransaction.commit(JdbcTransaction.java:69)] - Committing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@232024b9]
+2022-09-28 16:23:44.720 DEBUG [main] [org.apache.ibatis.transaction.jdbc.JdbcTransaction.resetAutoCommit(JdbcTransaction.java:120)] - Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@232024b9]
+2022-09-28 16:23:44.722 DEBUG [main] [org.apache.ibatis.transaction.jdbc.JdbcTransaction.close(JdbcTransaction.java:88)] - Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@232024b9]
+2022-09-28 16:23:44.722 DEBUG [main] [org.apache.ibatis.datasource.pooled.PooledDataSource.pushConnection(PooledDataSource.java:334)] - Returned connection 589309113 to pool.
+2022-09-28 16:23:44.722 DEBUG [main] [org.apache.ibatis.transaction.jdbc.JdbcTransaction.openConnection(JdbcTransaction.java:132)] - Opening JDBC Connection
+2022-09-28 16:23:44.722 DEBUG [main] [org.apache.ibatis.datasource.pooled.PooledDataSource.popConnection(PooledDataSource.java:369)] - Checked out connection 589309113 from pool.
+2022-09-28 16:23:44.722 DEBUG [main] [org.apache.ibatis.transaction.jdbc.JdbcTransaction.setDesiredAutoCommit(JdbcTransaction.java:98)] - Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@232024b9]
+2022-09-28 16:23:44.723 DEBUG [main] [org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:139)] - ==>  Preparing: Delete From Allergies where id = ? 
+2022-09-28 16:23:44.723 DEBUG [main] [org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:139)] - ==> Parameters: 9(Integer)
+2022-09-28 16:23:44.725 DEBUG [main] [org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:139)] - <==    Updates: 1
+2022-09-28 16:23:44.725 DEBUG [main] [org.apache.ibatis.transaction.jdbc.JdbcTransaction.commit(JdbcTransaction.java:69)] - Committing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@232024b9]
+2022-09-28 16:23:44.729 DEBUG [main] [org.apache.ibatis.transaction.jdbc.JdbcTransaction.resetAutoCommit(JdbcTransaction.java:120)] - Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@232024b9]
+2022-09-28 16:23:44.731 DEBUG [main] [org.apache.ibatis.transaction.jdbc.JdbcTransaction.close(JdbcTransaction.java:88)] - Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@232024b9]
+2022-09-28 16:23:44.731 DEBUG [main] [org.apache.ibatis.datasource.pooled.PooledDataSource.pushConnection(PooledDataSource.java:334)] - Returned connection 589309113 to pool.
+2022-09-28 16:23:44.731 DEBUG [main] [org.apache.ibatis.transaction.jdbc.JdbcTransaction.openConnection(JdbcTransaction.java:132)] - Opening JDBC Connection
+2022-09-28 16:23:44.731 DEBUG [main] [org.apache.ibatis.datasource.pooled.PooledDataSource.popConnection(PooledDataSource.java:369)] - Checked out connection 589309113 from pool.
+2022-09-28 16:23:44.731 DEBUG [main] [org.apache.ibatis.transaction.jdbc.JdbcTransaction.setDesiredAutoCommit(JdbcTransaction.java:98)] - Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@232024b9]
+2022-09-28 16:23:44.732 DEBUG [main] [org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:139)] - ==>  Preparing: Delete From Allergies where id = ? 
+2022-09-28 16:23:44.732 DEBUG [main] [org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:139)] - ==> Parameters: 10(Integer)
+2022-09-28 16:23:44.734 DEBUG [main] [org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:139)] - <==    Updates: 1
+2022-09-28 16:23:44.734 DEBUG [main] [org.apache.ibatis.transaction.jdbc.JdbcTransaction.commit(JdbcTransaction.java:69)] - Committing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@232024b9]
+2022-09-28 16:23:44.738 DEBUG [main] [org.apache.ibatis.transaction.jdbc.JdbcTransaction.resetAutoCommit(JdbcTransaction.java:120)] - Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@232024b9]
+2022-09-28 16:23:44.739 DEBUG [main] [org.apache.ibatis.transaction.jdbc.JdbcTransaction.close(JdbcTransaction.java:88)] - Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@232024b9]
+2022-09-28 16:23:44.739 DEBUG [main] [org.apache.ibatis.datasource.pooled.PooledDataSource.pushConnection(PooledDataSource.java:334)] - Returned connection 589309113 to pool.

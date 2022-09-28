@@ -1,8 +1,6 @@
-package com.solvd.hospital.services.MyBatis;
+package com.solvd.hospital.services.mybatis.utility;
 
-import com.solvd.hospital.dao.IAllergyDao;
 import org.apache.ibatis.io.Resources;
-import org.apache.ibatis.session.SqlSession;
 import org.apache.ibatis.session.SqlSessionFactory;
 import org.apache.ibatis.session.SqlSessionFactoryBuilder;
 import org.apache.logging.log4j.Logger;
