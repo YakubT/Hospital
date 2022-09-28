@@ -1,7 +1,6 @@
 package com.solvd.hospital.services.MyBatis;
 
 import com.solvd.hospital.dao.IAllergyDao;
-import com.solvd.hospital.dao.mysql.AllergyDao;
 import org.apache.ibatis.io.Resources;
 import org.apache.ibatis.session.SqlSession;
 import org.apache.ibatis.session.SqlSessionFactory;
@@ -18,7 +17,7 @@ import com.solvd.hospital.models.Allergy;
 public class AllergyService {
 
     private static final Logger LOGGER = LogManager.getLogger(AllergyService.class);
-    private static final String resource = "mybatis-config.xml";
+    private static final String resource = "mybatis/mybatis-config.xml";
 
     public void create(Allergy object) {
         try {
