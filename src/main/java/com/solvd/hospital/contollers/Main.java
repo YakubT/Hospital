@@ -13,10 +13,6 @@ public class Main {
 
     public static void main (String[] args) {
         AllergyService allergyService = new AllergyService();
-        allergyService.remove(5);
-        allergyService.remove(7);
-        allergyService.remove(8);
-        allergyService.remove(9);
-        allergyService.remove(10);
+        LOGGER.info(allergyService.getById(1).getNameOfDrug());
     }
 }

@@ -5,10 +5,15 @@
     <update id = "create" parameterType = "com.solvd.hospital.models.Allergy">
         INSERT INTO ALLERGIES(name_of_drug, Medical_card_id) values (#{nameOfDrug},#{medicalCardId})
     </update>
-    <select id="getById">
+    <select id="getById" parameterType="int" resultMap="allergyBasicGet">
         Select id, name_of_drug, Medical_card_id
         From Allergies Where id =#{id}
     </select>
+    <resultMap id="allergyBasicGet" type="com.solvd.hospital.models.Allergy" autoMapping="false">
+        <id column="id" property="id"/>
+        <result column="name_of_drug" property="nameOfDrug"/>
+        <result column="Medical_card_id" property="medicalCardId"/>
+    </resultMap>
     <update id="remove" parameterType = "int">
         Delete From Allergies where id = #{id}
     </update>
