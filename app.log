@@ -426,3 +426,10 @@
 2022-09-29 21:08:18.003 DEBUG [main] [org.apache.ibatis.transaction.jdbc.JdbcTransaction.close(JdbcTransaction.java:88)] - Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@5d52e3ef]
 2022-09-29 21:08:18.003 DEBUG [main] [org.apache.ibatis.datasource.pooled.PooledDataSource.pushConnection(PooledDataSource.java:334)] - Returned connection 1565713391 to pool.
 2022-09-29 21:08:18.003 INFO [main] [com.solvd.hospital.contollers.Main.main(Main.java:16)] - Paracetamol
+2022-09-29 21:53:41.992 ERROR [main] [com.solvd.hospital.dao.mysql.MedicalCardDao.getById(MedicalCardDao.java:74)] - java.sql.SQLSyntaxErrorException: Unknown column 'id' in 'field list'
+2022-09-29 21:54:24.482 ERROR [main] [com.solvd.hospital.dao.mysql.MedicalCardDao.getById(MedicalCardDao.java:74)] - java.sql.SQLSyntaxErrorException: Unknown column 'id' in 'field list'
+2022-09-29 21:55:48.914 ERROR [main] [com.solvd.hospital.dao.mysql.MedicalCardDao.getById(MedicalCardDao.java:74)] - java.sql.SQLSyntaxErrorException: Unknown column 'id' in 'field list'
+2022-09-29 21:57:06.417 ERROR [main] [com.solvd.hospital.dao.mysql.MedicalCardDao.getById(MedicalCardDao.java:74)] - java.sql.SQLSyntaxErrorException: Unknown column 'id' in 'field list'
+2022-09-29 21:57:44.306 ERROR [main] [com.solvd.hospital.dao.mysql.MedicalCardDao.getById(MedicalCardDao.java:74)] - java.sql.SQLSyntaxErrorException: Unknown column 'id' in 'field list'
+2022-09-29 22:10:52.288 INFO [main] [com.solvd.hospital.contollers.Main.main(Main.java:28)] - 1
+2022-09-29 22:10:52.311 INFO [main] [com.solvd.hospital.contollers.Main.main(Main.java:30)] - Lis

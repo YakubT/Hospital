@@ -19,4 +19,12 @@ public enum Invalidity {
     public String getValue() {
         return value;
     }
+
+    public static Invalidity findByValue (String value) {
+        for (Invalidity invalidity:Invalidity.values()){
+            if (invalidity.getValue().equals(value))
+                return invalidity;
+        }
+        return null;
+    }
 }

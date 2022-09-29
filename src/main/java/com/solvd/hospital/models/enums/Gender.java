@@ -15,4 +15,12 @@ public enum Gender {
     public String getValue() {
         return value;
     }
+
+    public static Gender findByValue (String value) {
+        for (Gender gender:Gender.values()){
+            if (gender.getValue().equals(value))
+                return gender;
+        }
+        return null;
+    }
 }

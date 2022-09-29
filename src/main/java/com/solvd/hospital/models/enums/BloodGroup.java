@@ -27,4 +27,12 @@ public enum BloodGroup {
     public String getValue() {
         return value;
     }
+
+    public static BloodGroup findByValue (String value) {
+        for (BloodGroup el:BloodGroup.values()){
+            if (el.getValue().equals(value))
+                return el;
+        }
+        return null;
+    }
 }
