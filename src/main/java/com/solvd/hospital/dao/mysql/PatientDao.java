@@ -1,5 +1,6 @@
 package com.solvd.hospital.dao.mysql;
 
+import com.solvd.hospital.dao.IUserDao;
 import org.apache.logging.log4j.Logger;
 import org.apache.logging.log4j.LogManager;
 
@@ -19,7 +20,8 @@ public class PatientDao extends AbstractMySqlDao implements IPatientDao {
     private static final Logger LOGGER = LogManager.getLogger(PatientDao.class);
     @Override
     public void create(Patient object) {
-
+        IUserDao userDao = new UserDao();
+        userDao.create(object);
     }
 
     @Override
@@ -72,7 +74,8 @@ public class PatientDao extends AbstractMySqlDao implements IPatientDao {
 
     @Override
     public void update(Patient object) {
-
+        IUserDao userDao = new UserDao();
+        userDao.update(object);
     }
 
     @Override
@@ -82,7 +85,7 @@ public class PatientDao extends AbstractMySqlDao implements IPatientDao {
                 "users.role, medical_cards.id as MedId From Users Inner Join medical_cards on medical_cards.patient_id = " +
                 "users.id where users.role = 2";
         try (PreparedStatement ps = connection.prepareStatement(query)) {
-            List<Patient> patients = new ArrayList<Patient>();
+            List<Patient> patients = new ArrayList<>();
             ResultSet rs = ps.executeQuery();
             while (rs.next()) {
                 Patient patient = new Patient();
