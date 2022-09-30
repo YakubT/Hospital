@@ -2,13 +2,13 @@ package com.solvd.hospital.models;
 
 public class Specialist extends User {
 
-    private Experience experience;
+    private int experienceId;
 
-    public Experience getExperience() {
-        return experience;
+    public int getExperienceId() {
+        return experienceId;
     }
 
-    public void setExperience(Experience experience) {
-        this.experience = experience;
+    public void setExperienceId(int experienceId) {
+        this.experienceId = experienceId;
     }
 }
