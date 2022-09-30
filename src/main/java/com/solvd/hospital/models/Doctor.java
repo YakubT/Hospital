@@ -4,23 +4,23 @@ import java.util.List;
 
 public class Doctor extends Specialist {
 
-    private List<MedicalCard> listOfMedicalCards;
+    private List<Integer> listOfMedicalCardsId;
 
-    private List<MedicalField> listOfMedicalField;
+    private List<Integer> listOfMedicalFieldId;
 
-    public List<MedicalCard> getListOfMedicalCards() {
-        return listOfMedicalCards;
+    public List<Integer> getListOfMedicalCards() {
+        return listOfMedicalCardsId;
     }
 
-    public void setListOfMedicalCards(List<MedicalCard> listOfMedicalCards) {
-        this.listOfMedicalCards = listOfMedicalCards;
+    public void setListOfMedicalCards(List<Integer> listOfMedicalCardsId) {
+        this.listOfMedicalCardsId = listOfMedicalCardsId;
     }
 
-    public List<MedicalField> getListOfMedicalField() {
-        return listOfMedicalField;
+    public List<Integer> getListOfMedicalField() {
+        return listOfMedicalFieldId;
     }
 
-    public void setListOfMedicalField(List<MedicalField> listOfMedicalField) {
-        this.listOfMedicalField = listOfMedicalField;
+    public void setListOfMedicalField(List<Integer> listOfMedicalFieldId) {
+        this.listOfMedicalFieldId = listOfMedicalFieldId;
     }
 }
