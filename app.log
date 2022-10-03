@@ -443,3 +443,120 @@
 2022-10-03 15:58:26.109 INFO [main] [com.solvd.hospital.contollers.Main.main(Main.java:33)] - Micnyi
 2022-10-03 15:58:26.109 INFO [main] [com.solvd.hospital.contollers.Main.main(Main.java:33)] - Skliar
 2022-10-03 15:58:26.109 INFO [main] [com.solvd.hospital.contollers.Main.main(Main.java:33)] - Mysak
+2022-10-03 22:11:29.059 INFO [main] [com.solvd.hospital.contollers.Main.main(Main.java:34)] - Potochenko
+2022-10-03 22:11:29.059 INFO [main] [com.solvd.hospital.contollers.Main.main(Main.java:34)] - Vovk
+2022-10-03 22:11:29.059 INFO [main] [com.solvd.hospital.contollers.Main.main(Main.java:34)] - Vuho
+2022-10-03 22:11:29.059 INFO [main] [com.solvd.hospital.contollers.Main.main(Main.java:34)] - Bogatyr
+2022-10-03 22:11:29.059 INFO [main] [com.solvd.hospital.contollers.Main.main(Main.java:34)] - Pryhodko
+2022-10-03 22:11:29.059 INFO [main] [com.solvd.hospital.contollers.Main.main(Main.java:34)] - Dzhmil
+2022-10-03 22:11:29.059 INFO [main] [com.solvd.hospital.contollers.Main.main(Main.java:34)] - Korniychuk
+2022-10-03 22:11:29.059 INFO [main] [com.solvd.hospital.contollers.Main.main(Main.java:34)] - Micnyi
+2022-10-03 22:11:29.059 INFO [main] [com.solvd.hospital.contollers.Main.main(Main.java:34)] - Skliar
+2022-10-03 22:11:29.059 INFO [main] [com.solvd.hospital.contollers.Main.main(Main.java:34)] - Mysak
+2022-10-03 22:11:29.692 DEBUG [main] [org.apache.ibatis.logging.LogFactory.setImplementation(LogFactory.java:128)] - Logging initialized using 'class org.apache.ibatis.logging.log4j2.Log4j2Impl' adapter.
+2022-10-03 22:11:29.708 DEBUG [main] [org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:306)] - PooledDataSource forcefully closed/removed all connections.
+2022-10-03 22:11:29.708 DEBUG [main] [org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:306)] - PooledDataSource forcefully closed/removed all connections.
+2022-10-03 22:11:29.708 DEBUG [main] [org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:306)] - PooledDataSource forcefully closed/removed all connections.
+2022-10-03 22:11:29.708 DEBUG [main] [org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:306)] - PooledDataSource forcefully closed/removed all connections.
+2022-10-03 22:11:29.777 DEBUG [main] [org.apache.ibatis.transaction.jdbc.JdbcTransaction.openConnection(JdbcTransaction.java:132)] - Opening JDBC Connection
+2022-10-03 22:11:29.792 DEBUG [main] [org.apache.ibatis.datasource.pooled.PooledDataSource.popConnection(PooledDataSource.java:380)] - Created connection 1137989065.
+2022-10-03 22:11:29.792 DEBUG [main] [org.apache.ibatis.transaction.jdbc.JdbcTransaction.setDesiredAutoCommit(JdbcTransaction.java:98)] - Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@43d455c9]
+2022-10-03 22:11:29.808 DEBUG [main] [org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:139)] - ==>  Preparing: Select id, login, password, name, surname, middle_name, role From Users 
+2022-10-03 22:11:29.823 DEBUG [main] [org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:139)] - ==> Parameters: 
+2022-10-03 22:11:29.846 DEBUG [main] [org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:139)] - <==      Total: 16
+2022-10-03 22:12:23.222 INFO [main] [com.solvd.hospital.contollers.Main.main(Main.java:34)] - Potochenko
+2022-10-03 22:12:23.238 INFO [main] [com.solvd.hospital.contollers.Main.main(Main.java:34)] - Vovk
+2022-10-03 22:12:23.238 INFO [main] [com.solvd.hospital.contollers.Main.main(Main.java:34)] - Vuho
+2022-10-03 22:12:23.238 INFO [main] [com.solvd.hospital.contollers.Main.main(Main.java:34)] - Bogatyr
+2022-10-03 22:12:23.238 INFO [main] [com.solvd.hospital.contollers.Main.main(Main.java:34)] - Pryhodko
+2022-10-03 22:12:23.238 INFO [main] [com.solvd.hospital.contollers.Main.main(Main.java:34)] - Dzhmil
+2022-10-03 22:12:23.238 INFO [main] [com.solvd.hospital.contollers.Main.main(Main.java:34)] - Korniychuk
+2022-10-03 22:12:23.238 INFO [main] [com.solvd.hospital.contollers.Main.main(Main.java:34)] - Micnyi
+2022-10-03 22:12:23.238 INFO [main] [com.solvd.hospital.contollers.Main.main(Main.java:34)] - Skliar
+2022-10-03 22:12:23.238 INFO [main] [com.solvd.hospital.contollers.Main.main(Main.java:34)] - Mysak
+2022-10-03 22:12:23.476 DEBUG [main] [org.apache.ibatis.logging.LogFactory.setImplementation(LogFactory.java:128)] - Logging initialized using 'class org.apache.ibatis.logging.log4j2.Log4j2Impl' adapter.
+2022-10-03 22:12:23.492 DEBUG [main] [org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:306)] - PooledDataSource forcefully closed/removed all connections.
+2022-10-03 22:12:23.492 DEBUG [main] [org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:306)] - PooledDataSource forcefully closed/removed all connections.
+2022-10-03 22:12:23.492 DEBUG [main] [org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:306)] - PooledDataSource forcefully closed/removed all connections.
+2022-10-03 22:12:23.492 DEBUG [main] [org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:306)] - PooledDataSource forcefully closed/removed all connections.
+2022-10-03 22:12:23.561 DEBUG [main] [org.apache.ibatis.transaction.jdbc.JdbcTransaction.openConnection(JdbcTransaction.java:132)] - Opening JDBC Connection
+2022-10-03 22:12:23.577 DEBUG [main] [org.apache.ibatis.datasource.pooled.PooledDataSource.popConnection(PooledDataSource.java:380)] - Created connection 1137989065.
+2022-10-03 22:12:23.577 DEBUG [main] [org.apache.ibatis.transaction.jdbc.JdbcTransaction.setDesiredAutoCommit(JdbcTransaction.java:98)] - Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@43d455c9]
+2022-10-03 22:12:23.577 DEBUG [main] [org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:139)] - ==>  Preparing: Select id, login, password, name, surname, middle_name, role From Users 
+2022-10-03 22:12:23.592 DEBUG [main] [org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:139)] - ==> Parameters: 
+2022-10-03 22:12:23.616 DEBUG [main] [org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:139)] - <==      Total: 16
+2022-10-03 22:13:28.208 INFO [main] [com.solvd.hospital.contollers.Main.main(Main.java:34)] - Potochenko
+2022-10-03 22:13:28.208 INFO [main] [com.solvd.hospital.contollers.Main.main(Main.java:34)] - Vovk
+2022-10-03 22:13:28.208 INFO [main] [com.solvd.hospital.contollers.Main.main(Main.java:34)] - Vuho
+2022-10-03 22:13:28.208 INFO [main] [com.solvd.hospital.contollers.Main.main(Main.java:34)] - Bogatyr
+2022-10-03 22:13:28.208 INFO [main] [com.solvd.hospital.contollers.Main.main(Main.java:34)] - Pryhodko
+2022-10-03 22:13:28.208 INFO [main] [com.solvd.hospital.contollers.Main.main(Main.java:34)] - Dzhmil
+2022-10-03 22:13:28.208 INFO [main] [com.solvd.hospital.contollers.Main.main(Main.java:34)] - Korniychuk
+2022-10-03 22:13:28.208 INFO [main] [com.solvd.hospital.contollers.Main.main(Main.java:34)] - Micnyi
+2022-10-03 22:13:28.208 INFO [main] [com.solvd.hospital.contollers.Main.main(Main.java:34)] - Skliar
+2022-10-03 22:13:28.208 INFO [main] [com.solvd.hospital.contollers.Main.main(Main.java:34)] - Mysak
+2022-10-03 22:13:28.477 DEBUG [main] [org.apache.ibatis.logging.LogFactory.setImplementation(LogFactory.java:128)] - Logging initialized using 'class org.apache.ibatis.logging.log4j2.Log4j2Impl' adapter.
+2022-10-03 22:13:28.493 DEBUG [main] [org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:306)] - PooledDataSource forcefully closed/removed all connections.
+2022-10-03 22:13:28.493 DEBUG [main] [org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:306)] - PooledDataSource forcefully closed/removed all connections.
+2022-10-03 22:13:28.493 DEBUG [main] [org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:306)] - PooledDataSource forcefully closed/removed all connections.
+2022-10-03 22:13:28.493 DEBUG [main] [org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:306)] - PooledDataSource forcefully closed/removed all connections.
+2022-10-03 22:13:28.555 DEBUG [main] [org.apache.ibatis.transaction.jdbc.JdbcTransaction.openConnection(JdbcTransaction.java:132)] - Opening JDBC Connection
+2022-10-03 22:13:28.578 DEBUG [main] [org.apache.ibatis.datasource.pooled.PooledDataSource.popConnection(PooledDataSource.java:380)] - Created connection 1137989065.
+2022-10-03 22:13:28.578 DEBUG [main] [org.apache.ibatis.transaction.jdbc.JdbcTransaction.setDesiredAutoCommit(JdbcTransaction.java:98)] - Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@43d455c9]
+2022-10-03 22:13:28.578 DEBUG [main] [org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:139)] - ==>  Preparing: Select id, login, password, name, surname, middle_name, role From Users Where id = ? 
+2022-10-03 22:13:28.593 DEBUG [main] [org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:139)] - ==> Parameters: 1(Integer)
+2022-10-03 22:13:28.609 DEBUG [main] [org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:139)] - <==      Total: 1
+2022-10-03 22:13:28.609 DEBUG [main] [org.apache.ibatis.transaction.jdbc.JdbcTransaction.resetAutoCommit(JdbcTransaction.java:120)] - Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@43d455c9]
+2022-10-03 22:13:28.609 DEBUG [main] [org.apache.ibatis.transaction.jdbc.JdbcTransaction.close(JdbcTransaction.java:88)] - Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@43d455c9]
+2022-10-03 22:13:28.609 DEBUG [main] [org.apache.ibatis.datasource.pooled.PooledDataSource.pushConnection(PooledDataSource.java:334)] - Returned connection 1137989065 to pool.
+2022-10-03 22:13:28.609 INFO [main] [com.solvd.hospital.contollers.Main.main(Main.java:42)] - null
+2022-10-03 22:24:20.331 INFO [main] [com.solvd.hospital.contollers.Main.main(Main.java:34)] - Potochenko
+2022-10-03 22:24:20.346 INFO [main] [com.solvd.hospital.contollers.Main.main(Main.java:34)] - Vovk
+2022-10-03 22:24:20.346 INFO [main] [com.solvd.hospital.contollers.Main.main(Main.java:34)] - Vuho
+2022-10-03 22:24:20.348 INFO [main] [com.solvd.hospital.contollers.Main.main(Main.java:34)] - Bogatyr
+2022-10-03 22:24:20.348 INFO [main] [com.solvd.hospital.contollers.Main.main(Main.java:34)] - Pryhodko
+2022-10-03 22:24:20.348 INFO [main] [com.solvd.hospital.contollers.Main.main(Main.java:34)] - Dzhmil
+2022-10-03 22:24:20.348 INFO [main] [com.solvd.hospital.contollers.Main.main(Main.java:34)] - Korniychuk
+2022-10-03 22:24:20.348 INFO [main] [com.solvd.hospital.contollers.Main.main(Main.java:34)] - Micnyi
+2022-10-03 22:24:20.348 INFO [main] [com.solvd.hospital.contollers.Main.main(Main.java:34)] - Skliar
+2022-10-03 22:24:20.348 INFO [main] [com.solvd.hospital.contollers.Main.main(Main.java:34)] - Mysak
+2022-10-03 22:24:20.696 DEBUG [main] [org.apache.ibatis.logging.LogFactory.setImplementation(LogFactory.java:128)] - Logging initialized using 'class org.apache.ibatis.logging.log4j2.Log4j2Impl' adapter.
+2022-10-03 22:24:20.696 DEBUG [main] [org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:306)] - PooledDataSource forcefully closed/removed all connections.
+2022-10-03 22:24:20.696 DEBUG [main] [org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:306)] - PooledDataSource forcefully closed/removed all connections.
+2022-10-03 22:24:20.696 DEBUG [main] [org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:306)] - PooledDataSource forcefully closed/removed all connections.
+2022-10-03 22:24:20.696 DEBUG [main] [org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:306)] - PooledDataSource forcefully closed/removed all connections.
+2022-10-03 22:24:20.766 DEBUG [main] [org.apache.ibatis.transaction.jdbc.JdbcTransaction.openConnection(JdbcTransaction.java:132)] - Opening JDBC Connection
+2022-10-03 22:24:20.781 DEBUG [main] [org.apache.ibatis.datasource.pooled.PooledDataSource.popConnection(PooledDataSource.java:380)] - Created connection 1137989065.
+2022-10-03 22:24:20.781 DEBUG [main] [org.apache.ibatis.transaction.jdbc.JdbcTransaction.setDesiredAutoCommit(JdbcTransaction.java:98)] - Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@43d455c9]
+2022-10-03 22:24:20.797 DEBUG [main] [org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:139)] - ==>  Preparing: Select id, login, password, name, surname, middle_name, role From Users Where id = ? 
+2022-10-03 22:24:20.812 DEBUG [main] [org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:139)] - ==> Parameters: 1(Integer)
+2022-10-03 22:24:20.828 DEBUG [main] [org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:139)] - <==      Total: 1
+2022-10-03 22:24:20.828 DEBUG [main] [org.apache.ibatis.transaction.jdbc.JdbcTransaction.resetAutoCommit(JdbcTransaction.java:120)] - Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@43d455c9]
+2022-10-03 22:24:20.828 DEBUG [main] [org.apache.ibatis.transaction.jdbc.JdbcTransaction.close(JdbcTransaction.java:88)] - Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@43d455c9]
+2022-10-03 22:24:20.828 DEBUG [main] [org.apache.ibatis.datasource.pooled.PooledDataSource.pushConnection(PooledDataSource.java:334)] - Returned connection 1137989065 to pool.
+2022-10-03 22:24:20.828 INFO [main] [com.solvd.hospital.contollers.Main.main(Main.java:42)] - TOLIA
+2022-10-03 22:27:49.581 INFO [main] [com.solvd.hospital.contollers.Main.main(Main.java:24)] - Potochenko
+2022-10-03 22:27:49.581 INFO [main] [com.solvd.hospital.contollers.Main.main(Main.java:24)] - Vovk
+2022-10-03 22:27:49.581 INFO [main] [com.solvd.hospital.contollers.Main.main(Main.java:24)] - Vuho
+2022-10-03 22:27:49.581 INFO [main] [com.solvd.hospital.contollers.Main.main(Main.java:24)] - Bogatyr
+2022-10-03 22:27:49.581 INFO [main] [com.solvd.hospital.contollers.Main.main(Main.java:24)] - Pryhodko
+2022-10-03 22:27:49.581 INFO [main] [com.solvd.hospital.contollers.Main.main(Main.java:24)] - Dzhmil
+2022-10-03 22:27:49.581 INFO [main] [com.solvd.hospital.contollers.Main.main(Main.java:24)] - Korniychuk
+2022-10-03 22:27:49.581 INFO [main] [com.solvd.hospital.contollers.Main.main(Main.java:24)] - Micnyi
+2022-10-03 22:27:49.581 INFO [main] [com.solvd.hospital.contollers.Main.main(Main.java:24)] - Skliar
+2022-10-03 22:27:49.581 INFO [main] [com.solvd.hospital.contollers.Main.main(Main.java:24)] - Mysak
+2022-10-03 22:27:49.820 DEBUG [main] [org.apache.ibatis.logging.LogFactory.setImplementation(LogFactory.java:128)] - Logging initialized using 'class org.apache.ibatis.logging.log4j2.Log4j2Impl' adapter.
+2022-10-03 22:27:49.836 DEBUG [main] [org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:306)] - PooledDataSource forcefully closed/removed all connections.
+2022-10-03 22:27:49.836 DEBUG [main] [org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:306)] - PooledDataSource forcefully closed/removed all connections.
+2022-10-03 22:27:49.836 DEBUG [main] [org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:306)] - PooledDataSource forcefully closed/removed all connections.
+2022-10-03 22:27:49.836 DEBUG [main] [org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:306)] - PooledDataSource forcefully closed/removed all connections.
+2022-10-03 22:27:49.905 DEBUG [main] [org.apache.ibatis.transaction.jdbc.JdbcTransaction.openConnection(JdbcTransaction.java:132)] - Opening JDBC Connection
+2022-10-03 22:27:49.920 DEBUG [main] [org.apache.ibatis.datasource.pooled.PooledDataSource.popConnection(PooledDataSource.java:380)] - Created connection 1137989065.
+2022-10-03 22:27:49.920 DEBUG [main] [org.apache.ibatis.transaction.jdbc.JdbcTransaction.setDesiredAutoCommit(JdbcTransaction.java:98)] - Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@43d455c9]
+2022-10-03 22:27:49.920 DEBUG [main] [org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:139)] - ==>  Preparing: Select id, login, password, name, surname, middle_name, role From Users Where id = ? 
+2022-10-03 22:27:49.952 DEBUG [main] [org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:139)] - ==> Parameters: 1(Integer)
+2022-10-03 22:27:49.967 DEBUG [main] [org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:139)] - <==      Total: 1
+2022-10-03 22:27:49.967 DEBUG [main] [org.apache.ibatis.transaction.jdbc.JdbcTransaction.resetAutoCommit(JdbcTransaction.java:120)] - Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@43d455c9]
+2022-10-03 22:27:49.967 DEBUG [main] [org.apache.ibatis.transaction.jdbc.JdbcTransaction.close(JdbcTransaction.java:88)] - Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@43d455c9]
+2022-10-03 22:27:49.967 DEBUG [main] [org.apache.ibatis.datasource.pooled.PooledDataSource.pushConnection(PooledDataSource.java:334)] - Returned connection 1137989065 to pool.
+2022-10-03 22:27:49.967 INFO [main] [com.solvd.hospital.contollers.Main.main(Main.java:32)] - TOLIA
