@@ -13,7 +13,7 @@ import com.solvd.hospital.services.mybatis.utility.MyBatisFactory;
 
 public class UserService implements IUserService {
 
-    private static final Logger LOGGER = LogManager.getLogger(AllergyService.class);
+    private static final Logger LOGGER = LogManager.getLogger(UserService.class);
 
     private static final SqlSessionFactory sessionFactory = MyBatisFactory.getSqlSessionFactory();
 

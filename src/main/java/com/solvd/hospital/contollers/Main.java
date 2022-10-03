@@ -1,5 +1,7 @@
 package com.solvd.hospital.contollers;
 
+import com.solvd.hospital.dao.mysql.MedicalCardDao;
+import com.solvd.hospital.services.mybatis.MedicalCardService;
 import org.apache.logging.log4j.Logger;
 import org.apache.logging.log4j.LogManager;
 
@@ -15,6 +17,7 @@ public class Main {
     private static final Logger LOGGER = LogManager.getLogger(Main.class);
 
     public static void main (String[] args) {
+        /*
         ConnectionPool connectionPool = ConnectionPool.getInstance();
         try {
             connectionPool.create();
@@ -30,5 +33,9 @@ public class Main {
         connectionPool.shutdown();
         UserService userService = new UserService();
         LOGGER.info(userService.getById(1).getName());
+         */
+
+        MedicalCardService medicalCardService = new MedicalCardService();
+        LOGGER.info(medicalCardService.getById(1).getGender().getValue());
     }
 }

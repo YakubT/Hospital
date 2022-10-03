@@ -1,0 +1,45 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"   "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace = "com.solvd.hospital.dao.IMedicalCardDao">
+    <update id = "create" parameterType = "com.solvd.hospital.models.MedicalCard">
+        Insert into Medical_Cards (patient_id, date_of_birth, gender, address, phone_number, invalidity ,
+        blood_group, diabetes, hepatitis, doctor_id) values (#{patientId}, #{dateOfBirth}, #{gender.getValue()},
+        #{address}, #{phoneNumber}, #{invalidity.getValue()}, #{bloodGroup.getValue()}, #{diabetes.getValue()},
+        #{hepatitis.getValue()}, #{doctorId.getValue()} )
+    </update>
+    <select id="getById" parameterType="int" resultMap="MedCardGet">
+        Select id, patient_id, date_of_birth, gender, address, phone_number, invalidity, blood_group, diabetes,
+        hepatitis, doctor_id From Medical_Cards Where id = #{id}
+    </select>
+    <resultMap id="MedCardGet" type="com.solvd.hospital.models.MedicalCard" autoMapping="false">
+        <id column="id" property="id"/>
+        <result column="patient_id" property="patientId"/>
+        <result column="date_of_birth" property="dateOfBirth"/>
+        <result column="gender" property="gender"
+        typeHandler="com.solvd.hospital.services.mybatis.utility.TypeHandlers.GenderTypeHandler"
+        javaType="com.solvd.hospital.models.enums.Gender"/>
+        <result column="address" property="address"/>
+        <result column="phone_number" property="phoneNumber"/>
+        <result column="invalidity" property ="invalidity"
+                typeHandler="com.solvd.hospital.services.mybatis.utility.TypeHandlers.InvalidityTypeHandler"
+                javaType="com.solvd.hospital.models.enums.Invalidity"/>
+        <result column="blood_group" property="bloodGroup"
+                typeHandler="com.solvd.hospital.services.mybatis.utility.TypeHandlers.BloodGroupTypeHandler"
+        javaType="com.solvd.hospital.models.enums.BloodGroup"/>
+        <result column="diabetes" property="diabetes"/>
+        <result column="hepatitis" property="hepatitis"/>
+        <result column="doctor_id" property="doctorId"/>
+    </resultMap>
+    <update id="remove" parameterType = "int">
+        Delete From Medical_Cards where id = #{id}
+    </update>
+    <update id="update" parameterType = "com.solvd.hospital.models.MedicalCard">
+        Update Medical_Cards SET patient_id = #{patientId}, date_of_birth = #{dateOfBirth},
+        gender = #{gender.getValue}, address = #{address}, phone_number = #{phoneNumber},
+        invalidity = #{invalidity.getValue()} ,
+        blood_group = #{bloodGroup.getValue()}, diabetes =  #{diabetes.getValue()}, hepatitis =  #{hepatitis.getValue()},
+        doctor_id = #{doctorId.getValue()}
+    </update>
+
+</mapper>
