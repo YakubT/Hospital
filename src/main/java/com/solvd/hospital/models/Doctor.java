@@ -1,12 +1,13 @@
 package com.solvd.hospital.models;
 
+import java.util.ArrayList;
 import java.util.List;
 
 public class Doctor extends Specialist {
 
-    private List<Integer> listOfMedicalCardsId;
+    private List<Integer> listOfMedicalCardsId = new ArrayList<>();
 
-    private List<Integer> listOfMedicalFieldId;
+    private List<Integer> listOfMedicalFieldId = new ArrayList<>();
 
     public List<Integer> getListOfMedicalCards() {
         return listOfMedicalCardsId;

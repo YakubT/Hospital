@@ -433,3 +433,13 @@
 2022-09-29 21:57:44.306 ERROR [main] [com.solvd.hospital.dao.mysql.MedicalCardDao.getById(MedicalCardDao.java:74)] - java.sql.SQLSyntaxErrorException: Unknown column 'id' in 'field list'
 2022-09-29 22:10:52.288 INFO [main] [com.solvd.hospital.contollers.Main.main(Main.java:28)] - 1
 2022-09-29 22:10:52.311 INFO [main] [com.solvd.hospital.contollers.Main.main(Main.java:30)] - Lis
+2022-10-03 15:58:26.101 INFO [main] [com.solvd.hospital.contollers.Main.main(Main.java:33)] - Potochenko
+2022-10-03 15:58:26.101 INFO [main] [com.solvd.hospital.contollers.Main.main(Main.java:33)] - Vovk
+2022-10-03 15:58:26.101 INFO [main] [com.solvd.hospital.contollers.Main.main(Main.java:33)] - Vuho
+2022-10-03 15:58:26.101 INFO [main] [com.solvd.hospital.contollers.Main.main(Main.java:33)] - Bogatyr
+2022-10-03 15:58:26.101 INFO [main] [com.solvd.hospital.contollers.Main.main(Main.java:33)] - Pryhodko
+2022-10-03 15:58:26.101 INFO [main] [com.solvd.hospital.contollers.Main.main(Main.java:33)] - Dzhmil
+2022-10-03 15:58:26.109 INFO [main] [com.solvd.hospital.contollers.Main.main(Main.java:33)] - Korniychuk
+2022-10-03 15:58:26.109 INFO [main] [com.solvd.hospital.contollers.Main.main(Main.java:33)] - Micnyi
+2022-10-03 15:58:26.109 INFO [main] [com.solvd.hospital.contollers.Main.main(Main.java:33)] - Skliar
+2022-10-03 15:58:26.109 INFO [main] [com.solvd.hospital.contollers.Main.main(Main.java:33)] - Mysak
