@@ -1,7 +1,7 @@
 package com.solvd.hospital.jaxb;
 
-import com.solvd.hospital.models.classes.Allergy;
 import com.solvd.hospital.models.classes.MedicalCard;
+import com.solvd.hospital.models.classes.User;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
@@ -12,16 +12,16 @@ import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
 
-public class MedicalCardJaxB {
-    private static final Logger LOGGER = LogManager.getLogger(MedicalCardJaxB.class);
+public class UserJaxB {
+    private static final Logger LOGGER = LogManager.getLogger(UserJaxB.class);
 
-    public static MedicalCard getFromXml(String path) {
+    public static User getFromXml(String path) {
         try {
-            JAXBContext context = JAXBContext.newInstance(MedicalCardJaxB.class);
-            MedicalCard medicalCard;
+            JAXBContext context = JAXBContext.newInstance(User.class);
+            User user;
             try {
-                medicalCard =(MedicalCard) context.createUnmarshaller().unmarshal(new FileReader(path));
-                return medicalCard;
+                user =(User) context.createUnmarshaller().unmarshal(new FileReader(path));
+                return user;
             }
             catch (FileNotFoundException e) {
                 LOGGER.error(e);
@@ -33,12 +33,12 @@ public class MedicalCardJaxB {
         return null;
     }
 
-    public static void createXml (MedicalCard medicalCard, String path) {
+    public static void createXml (User user, String path) {
         try {
-            JAXBContext context = JAXBContext.newInstance(MedicalCard.class);
+            JAXBContext context = JAXBContext.newInstance(User.class);
             Marshaller marshaller = context.createMarshaller();
             marshaller.setProperty(Marshaller.JAXB_FORMATTED_OUTPUT,true);
-            marshaller.marshal(medicalCard, new File(path));
+            marshaller.marshal(user, new File(path));
         }
         catch (JAXBException e) {
             LOGGER.error(e);

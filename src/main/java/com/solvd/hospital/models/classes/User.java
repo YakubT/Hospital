@@ -1,25 +1,34 @@
 package com.solvd.hospital.models.classes;
 
-import com.solvd.hospital.models.classes.Record;
-
+import javax.xml.bind.annotation.*;
 import java.util.List;
 
+@XmlRootElement(name = "user")
+@XmlType(propOrder = {"id","login","password","name","middleName","surname","role"})
+@XmlAccessorType(XmlAccessType.FIELD)
 public  class User {
-
+    @XmlAttribute
     private int id;
 
+    @XmlElement (name = "login")
     private String login;
 
+    @XmlElement (name = "password")
     private String password;
 
+    @XmlElement (name = "name")
     private String name;
 
+    @XmlElement (name = "middleName")
     private String middleName;
 
+    @XmlElement (name = "surname")
     private String surname;
 
+    @XmlTransient
     private List<Record> listOfRecords;
 
+    @XmlElement
     private int role;
 
     public User() {

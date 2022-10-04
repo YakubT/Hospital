@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<user id="10">
+    <login>doctor</login>
+    <password>IamDoctor</password>
+    <name>Ivan</name>
+    <surname>Korniychuk</surname>
+    <role>1</role>
+</user>

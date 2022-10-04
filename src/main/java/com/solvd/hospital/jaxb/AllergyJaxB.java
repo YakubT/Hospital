@@ -19,7 +19,7 @@ public class AllergyJaxB {
 
     private static final Logger LOGGER = LogManager.getLogger(AllergyJaxB.class);
 
-    public static Allergy getAllergyFromXml(String path) {
+    public static Allergy getFromXml(String path) {
         try {
             JAXBContext context = JAXBContext.newInstance(Allergy.class);
             Allergy allergy;
