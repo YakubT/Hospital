@@ -13,7 +13,7 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 
 import com.solvd.hospital.dao.interfaces.IMedicalCardDao;
-import com.solvd.hospital.models.MedicalCard;
+import com.solvd.hospital.models.classes.MedicalCard;
 import com.solvd.hospital.сonnectionpool.ConnectionPool;
 
 public class MedicalCardDao extends AbstractMySqlDao implements IMedicalCardDao {

@@ -1,4 +1,4 @@
-package com.solvd.hospital.models;
+package com.solvd.hospital.models.classes;
 
 import org.apache.ibatis.annotations.ResultType;
 

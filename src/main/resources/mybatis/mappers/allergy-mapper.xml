@@ -2,14 +2,14 @@
 
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"   "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace = "com.solvd.hospital.dao.interfaces.IAllergyDao">
-    <update id = "create" parameterType = "com.solvd.hospital.models.Allergy">
+    <update id = "create" parameterType = "com.solvd.hospital.models.classes.Allergy">
         INSERT INTO ALLERGIES(name_of_drug, Medical_card_id) values (#{nameOfDrug},#{medicalCardId})
     </update>
     <select id="getById" parameterType="int" resultMap="allergyBasicGet">
         Select id, name_of_drug, Medical_card_id
         From Allergies Where id =#{id}
     </select>
-    <resultMap id="allergyBasicGet" type="com.solvd.hospital.models.Allergy" autoMapping="false">
+    <resultMap id="allergyBasicGet" type="com.solvd.hospital.models.classes.Allergy" autoMapping="false">
         <id column="id" property="id"/>
         <result column="name_of_drug" property="nameOfDrug"/>
         <result column="Medical_card_id" property="medicalCardId"/>
@@ -17,7 +17,7 @@
     <update id="remove" parameterType = "int">
         Delete From Allergies where id = #{id}
     </update>
-    <update id="update" parameterType = "com.solvd.hospital.models.Allergy">
+    <update id="update" parameterType = "com.solvd.hospital.models.classes.Allergy">
         Update Allergies Set name_of_drug = #{nameOfDrug}, medical_card_id = #{medicalCardId} Where id =#{id}
     </update>
 </mapper>

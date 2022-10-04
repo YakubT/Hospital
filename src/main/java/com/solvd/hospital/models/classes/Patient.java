@@ -1,6 +1,4 @@
-package com.solvd.hospital.models;
-
-import java.util.List;
+package com.solvd.hospital.models.classes;
 
 public class Patient extends User {
 

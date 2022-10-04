@@ -11,7 +11,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 import com.solvd.hospital.dao.interfaces.IUserDao;
-import com.solvd.hospital.models.User;
+import com.solvd.hospital.models.classes.User;
 import com.solvd.hospital.сonnectionpool.ConnectionPool;
 
 public class UserDao extends AbstractMySqlDao implements IUserDao {

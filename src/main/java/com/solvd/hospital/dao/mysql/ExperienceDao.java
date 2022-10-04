@@ -9,7 +9,7 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 
 import com.solvd.hospital.dao.interfaces.IExperienceDao;
-import com.solvd.hospital.models.Experience;
+import com.solvd.hospital.models.classes.Experience;
 import com.solvd.hospital.сonnectionpool.ConnectionPool;
 
 public class ExperienceDao extends  AbstractMySqlDao implements IExperienceDao {

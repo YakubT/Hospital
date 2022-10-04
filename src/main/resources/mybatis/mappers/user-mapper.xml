@@ -2,14 +2,14 @@
 
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"   "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace = "com.solvd.hospital.dao.interfaces.IUserDao">
-    <update id = "create" parameterType = "com.solvd.hospital.models.User">
+    <update id = "create" parameterType = "com.solvd.hospital.models.classes.User">
         INSERT INTO Users(login, password, name, surname, middle_name, role) values (#{login}, #{password}, #{name},
         #{surname}, #{middleName}, #{role})
     </update>
     <select id="getById" parameterType="int" resultMap="UserGet">
         Select id, login, password, name, surname, middle_name, role From Users Where id = #{id}
     </select>
-    <resultMap id="UserGet" type="com.solvd.hospital.models.User" autoMapping="false">
+    <resultMap id="UserGet" type="com.solvd.hospital.models.classes.User" autoMapping="false">
         <id column="id" property="id"/>
         <result column="login" property="login"/>
         <result column="password" property="password"/>
@@ -21,7 +21,7 @@
     <update id="remove" parameterType = "int">
         Delete From Users where id = #{id}
     </update>
-    <update id="update" parameterType = "com.solvd.hospital.models.User">
+    <update id="update" parameterType = "com.solvd.hospital.models.classes.User">
         Update Users Set login = #{login} , password =#{password} , name = #{name}, surname = #{surname}, middle_name = #{middleName}, role = #{role} Where id =#{id}
     </update>
 </mapper>

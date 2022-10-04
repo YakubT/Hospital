@@ -6,7 +6,7 @@ import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
 import com.solvd.hospital.dao.interfaces.IUserDao;
-import com.solvd.hospital.models.User;
+import com.solvd.hospital.models.classes.User;
 import com.solvd.hospital.services.IUserService;
 import com.solvd.hospital.services.mybatis.utility.MyBatisFactory;
 

@@ -12,7 +12,7 @@ import java.util.List;
 
 import com.solvd.hospital.dao.interfaces.IDoctorDao;
 import com.solvd.hospital.dao.interfaces.IUserDao;
-import com.solvd.hospital.models.Doctor;
+import com.solvd.hospital.models.classes.Doctor;
 import com.solvd.hospital.сonnectionpool.ConnectionPool;
 
 public class DoctorDao extends AbstractMySqlDao implements IDoctorDao {

@@ -1,4 +1,6 @@
-package com.solvd.hospital.models;
+package com.solvd.hospital.models.classes;
+
+import com.solvd.hospital.models.classes.Record;
 
 import java.util.List;
 

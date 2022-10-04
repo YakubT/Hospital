@@ -12,7 +12,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 import com.solvd.hospital.dao.interfaces.IPatientDao;
-import com.solvd.hospital.models.Patient;
+import com.solvd.hospital.models.classes.Patient;
 import com.solvd.hospital.сonnectionpool.ConnectionPool;
 
 public class PatientDao extends AbstractMySqlDao implements IPatientDao {

@@ -1,7 +1,6 @@
 package com.solvd.hospital.dao.interfaces;
 
-import com.solvd.hospital.dao.interfaces.IBaseDao;
-import com.solvd.hospital.models.Doctor;
+import com.solvd.hospital.models.classes.Doctor;
 
 import java.util.List;
 

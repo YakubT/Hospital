@@ -2,7 +2,7 @@ package com.solvd.hospital.dao.mysql;
 
 import com.solvd.hospital.dao.interfaces.ISpecialistDao;
 import com.solvd.hospital.dao.interfaces.IUserDao;
-import com.solvd.hospital.models.Specialist;
+import com.solvd.hospital.models.classes.Specialist;
 import com.solvd.hospital.сonnectionpool.ConnectionPool;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;

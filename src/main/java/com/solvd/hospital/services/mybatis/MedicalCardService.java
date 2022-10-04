@@ -8,7 +8,7 @@ import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
 
-import com.solvd.hospital.models.MedicalCard;
+import com.solvd.hospital.models.classes.MedicalCard;
 import com.solvd.hospital.services.IMedicalCardService;
 import com.solvd.hospital.services.mybatis.utility.MyBatisFactory;
 

@@ -10,7 +10,7 @@ import java.sql.SQLException;
 
 import com.solvd.hospital.dao.interfaces.IAllergyDao;
 import com.solvd.hospital.сonnectionpool.ConnectionPool;
-import com.solvd.hospital.models.Allergy;
+import com.solvd.hospital.models.classes.Allergy;
 
 public class AllergyDao extends AbstractMySqlDao implements IAllergyDao {
 
