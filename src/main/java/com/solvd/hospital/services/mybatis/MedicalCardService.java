@@ -20,7 +20,7 @@ public class MedicalCardService implements IMedicalCardService {
     @Override
     public void create(MedicalCard object) {
         SqlSession session = sessionFactory.openSession();
-        MedicalCardDao medicalCardDao = session.getMapper(MedicalCardDao.class);
+        IMedicalCardDao medicalCardDao = session.getMapper(IMedicalCardDao.class);
         medicalCardDao.create(object);
         session.commit();
         session.close();

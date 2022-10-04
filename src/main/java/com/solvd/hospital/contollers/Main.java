@@ -1,6 +1,10 @@
 package com.solvd.hospital.contollers;
 
+import com.solvd.hospital.dao.mysql.UserDao;
+import com.solvd.hospital.models.classes.MedicalCard;
+import com.solvd.hospital.models.classes.User;
 import com.solvd.hospital.services.mybatis.MedicalCardService;
+import com.solvd.hospital.services.mybatis.UserService;
 import org.apache.logging.log4j.Logger;
 import org.apache.logging.log4j.LogManager;
 
@@ -26,8 +30,6 @@ public class Main {
         UserService userService = new UserService();
         LOGGER.info(userService.getById(1).getName());
          */
-
-        MedicalCardService medicalCardService = new MedicalCardService();
-        LOGGER.info(medicalCardService.getById(1).getGender().getValue());
+        
     }
 }
