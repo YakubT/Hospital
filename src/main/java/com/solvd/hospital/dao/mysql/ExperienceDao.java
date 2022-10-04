@@ -8,7 +8,7 @@ import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 
-import com.solvd.hospital.dao.IExperienceDao;
+import com.solvd.hospital.dao.interfaces.IExperienceDao;
 import com.solvd.hospital.models.Experience;
 import com.solvd.hospital.сonnectionpool.ConnectionPool;
 

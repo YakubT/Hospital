@@ -1,6 +1,6 @@
 package com.solvd.hospital.services.mybatis;
 
-import com.solvd.hospital.dao.IMedicalCardDao;
+import com.solvd.hospital.dao.interfaces.IMedicalCardDao;
 import com.solvd.hospital.dao.mysql.MedicalCardDao;
 import org.apache.ibatis.session.SqlSession;
 import org.apache.ibatis.session.SqlSessionFactory;

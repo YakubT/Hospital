@@ -1,7 +1,7 @@
 <?xml version = "1.0" encoding = "UTF-8"?>
 
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"   "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace = "com.solvd.hospital.dao.IAllergyDao">
+<mapper namespace = "com.solvd.hospital.dao.interfaces.IAllergyDao">
     <update id = "create" parameterType = "com.solvd.hospital.models.Allergy">
         INSERT INTO ALLERGIES(name_of_drug, Medical_card_id) values (#{nameOfDrug},#{medicalCardId})
     </update>

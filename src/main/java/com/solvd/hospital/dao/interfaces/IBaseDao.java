@@ -1,4 +1,4 @@
-package com.solvd.hospital.dao;
+package com.solvd.hospital.dao.interfaces;
 
 public interface IBaseDao<T> {
 

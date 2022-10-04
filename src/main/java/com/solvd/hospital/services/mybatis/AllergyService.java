@@ -8,7 +8,7 @@ import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
 
-import com.solvd.hospital.dao.IAllergyDao;
+import com.solvd.hospital.dao.interfaces.IAllergyDao;
 import com.solvd.hospital.services.IAllergyService;
 import com.solvd.hospital.services.mybatis.utility.MyBatisFactory;
 import com.solvd.hospital.models.Allergy;

@@ -12,7 +12,7 @@ import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 
-import com.solvd.hospital.dao.IMedicalCardDao;
+import com.solvd.hospital.dao.interfaces.IMedicalCardDao;
 import com.solvd.hospital.models.MedicalCard;
 import com.solvd.hospital.сonnectionpool.ConnectionPool;
 

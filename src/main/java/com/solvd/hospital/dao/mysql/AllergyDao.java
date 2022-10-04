@@ -8,7 +8,7 @@ import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 
-import com.solvd.hospital.dao.IAllergyDao;
+import com.solvd.hospital.dao.interfaces.IAllergyDao;
 import com.solvd.hospital.сonnectionpool.ConnectionPool;
 import com.solvd.hospital.models.Allergy;
 

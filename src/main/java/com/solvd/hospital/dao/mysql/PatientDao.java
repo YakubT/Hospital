@@ -1,6 +1,6 @@
 package com.solvd.hospital.dao.mysql;
 
-import com.solvd.hospital.dao.IUserDao;
+import com.solvd.hospital.dao.interfaces.IUserDao;
 import org.apache.logging.log4j.Logger;
 import org.apache.logging.log4j.LogManager;
 
@@ -11,7 +11,7 @@ import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
 
-import com.solvd.hospital.dao.IPatientDao;
+import com.solvd.hospital.dao.interfaces.IPatientDao;
 import com.solvd.hospital.models.Patient;
 import com.solvd.hospital.сonnectionpool.ConnectionPool;
 

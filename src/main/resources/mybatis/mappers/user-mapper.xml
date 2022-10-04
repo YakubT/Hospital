@@ -1,7 +1,7 @@
 <?xml version = "1.0" encoding = "UTF-8"?>
 
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"   "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace = "com.solvd.hospital.dao.IUserDao">
+<mapper namespace = "com.solvd.hospital.dao.interfaces.IUserDao">
     <update id = "create" parameterType = "com.solvd.hospital.models.User">
         INSERT INTO Users(login, password, name, surname, middle_name, role) values (#{login}, #{password}, #{name},
         #{surname}, #{middleName}, #{role})
