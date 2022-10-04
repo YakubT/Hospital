@@ -1,13 +1,24 @@
 package com.solvd.hospital.models.classes;
 
-import org.apache.ibatis.annotations.ResultType;
+import javax.xml.bind.annotation.XmlAccessorType;
+import javax.xml.bind.annotation.XmlAccessType;
+import javax.xml.bind.annotation.XmlAttribute;
+import javax.xml.bind.annotation.XmlElement;
+import javax.xml.bind.annotation.XmlRootElement;
+import javax.xml.bind.annotation.XmlType;
 
+@XmlRootElement (name = "allergy")
+@XmlType (propOrder = {"id","nameOfDrug","medicalCardId"})
+@XmlAccessorType(XmlAccessType.FIELD)
 public class Allergy {
 
+    @XmlAttribute
     private int id;
 
+    @XmlElement (name = "nameOfDrug")
     private String nameOfDrug;
-    
+
+    @XmlElement (name = "medicalCardId")
     private int medicalCardId;
 
     public Allergy(){
