@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<medical_card id="1">
+    <patientId>2</patientId>
+    <dateOfBirth>2002-02-20</dateOfBirth>
+    <gender>Male</gender>
+    <address>L.Pu 22 77</address>
+    <invalidity>NONE</invalidity>
+    <bloodGroup>1+</bloodGroup>
+    <diabetes>false</diabetes>
+    <hepatitis>false</hepatitis>
+    <doctorId>4</doctorId>
+</medical_card>

@@ -1,10 +1,13 @@
 package com.solvd.hospital.contollers;
 
 import com.solvd.hospital.jaxb.AllergyJaxB;
+import com.solvd.hospital.jaxb.MedicalCardJaxB;
 import com.solvd.hospital.models.classes.Allergy;
 import com.solvd.hospital.models.classes.Experience;
+import com.solvd.hospital.models.classes.MedicalCard;
 import com.solvd.hospital.services.mybatis.AllergyService;
 import com.solvd.hospital.services.mybatis.ExperienceService;
+import com.solvd.hospital.services.mybatis.MedicalCardService;
 import org.apache.logging.log4j.Logger;
 import org.apache.logging.log4j.LogManager;
 
@@ -26,5 +29,8 @@ public class Main {
          */
         Allergy allergy = AllergyJaxB.getAllergyFromXml("./src/main/resources/jaxb/allergy.xml");
         LOGGER.info(allergy.getNameOfDrug());
+        MedicalCardService medicalCardService = new MedicalCardService();
+        MedicalCard medicalCard = medicalCardService.getById(1);
+        MedicalCardJaxB.createXml(medicalCard,"./src/main/resources/jaxb/medicalCard.xml");
     }
 }
