@@ -10,6 +10,8 @@ import com.solvd.hospital.models.classes.User;
 import com.solvd.hospital.services.IUserService;
 import com.solvd.hospital.services.mybatis.utility.MyBatisFactory;
 
+import java.util.List;
+
 
 public class UserService implements IUserService {
 
@@ -51,5 +53,15 @@ public class UserService implements IUserService {
         userDao.update(object);
         session.commit();
         session.close();
+    }
+
+    @Override
+    public List<User> getUsers()
+    {
+        SqlSession session = sessionFactory.openSession();
+        IUserDao userDao= session.getMapper(IUserDao.class);
+        List<User> users = userDao.getUsers();
+        session.close();
+        return  users;
     }
 }
