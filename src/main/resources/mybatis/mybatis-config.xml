@@ -17,5 +17,6 @@
         <mapper resource="mybatis/mappers/allergy-mapper.xml"/>
         <mapper resource="mybatis/mappers/user-mapper.xml"/>
         <mapper resource="mybatis/mappers/medical_card-mapper.xml"/>
+        <mapper resource="mybatis/mappers/experience-mapper.xml"/>
     </mappers>
 </configuration>

@@ -2,5 +2,25 @@
 
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"   "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace = "com.solvd.hospital.dao.interfaces.IExperienceDao">
-
+    <update id = "create" parameterType = "com.solvd.hospital.models.classes.Experience">
+        Insert into Experiences (description, count_years, specialist_id) values (#{description}, #{countYears},
+        #{specialistId})
+    </update>
+    <select id="getById" parameterType="int" resultMap="ExpGet">
+        Select id, description, count_years, specialist_id
+        From Experiences Where id =#{id}
+    </select>
+    <resultMap id="ExpGet" type="com.solvd.hospital.models.classes.Experience" autoMapping="false">
+        <id column="id" property="id"/>
+        <result column="description" property="description"/>
+        <result column="count_years" property="countYears"/>
+        <result column="specialist_id" property="specialistId"/>
+    </resultMap>
+    <update id="remove" parameterType = "int">
+        Delete From Experiences where id = #{id}
+    </update>
+    <update id="update" parameterType = "com.solvd.hospital.models.classes.Experience">
+        Update Experiences Set description= #{description}, count_years = #{countYears}, specialist_id = #{specialistId}
+         Where id =#{id}
+    </update>
 </mapper>
