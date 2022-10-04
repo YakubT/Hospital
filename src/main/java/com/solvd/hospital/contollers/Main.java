@@ -31,8 +31,14 @@ public class Main {
          */
         Allergy allergy = AllergyJaxB.getFromXml("./src/main/resources/jaxb/allergy.xml");
         LOGGER.info(allergy.getNameOfDrug());
+        /*
         UserService userService = new UserService();
         User user = userService.getById(10);
         UserJaxB.createXml(user,"./src/main/resources/jaxb/user.xml");
+         */
+        MedicalCard medicalCard = MedicalCardJaxB.getFromXml("./src/main/resources/jaxb/MedicalCard.xml");
+        LOGGER.info(medicalCard.getAddress());
+        User user = UserJaxB.getFromXml("./src/main/resources/jaxb/user.xml");
+        LOGGER.info(user.getSurname());
     }
 }

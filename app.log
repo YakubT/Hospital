@@ -1650,3 +1650,13 @@ Property role appears in @XmlType.propOrder, but no such property exists. Maybe 
 2022-10-04 22:30:41.559 DEBUG [main] [org.apache.ibatis.transaction.jdbc.JdbcTransaction.resetAutoCommit(JdbcTransaction.java:120)] - Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@773c0293]
 2022-10-04 22:30:41.559 DEBUG [main] [org.apache.ibatis.transaction.jdbc.JdbcTransaction.close(JdbcTransaction.java:88)] - Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@773c0293]
 2022-10-04 22:30:41.559 DEBUG [main] [org.apache.ibatis.datasource.pooled.PooledDataSource.pushConnection(PooledDataSource.java:334)] - Returned connection 2000421523 to pool.
+2022-10-04 22:33:08.669 INFO [main] [com.solvd.hospital.contollers.Main.main(Main.java:33)] - Paracetamol
+2022-10-04 22:33:08.684 ERROR [main] [com.solvd.hospital.jaxb.MedicalCardJaxB.getFromXml(MedicalCardJaxB.java:31)] - javax.xml.bind.UnmarshalException: unexpected element (uri:"", local:"medical_card"). Expected elements are (none)
+2022-10-04 22:33:57.741 INFO [main] [com.solvd.hospital.contollers.Main.main(Main.java:33)] - Paracetamol
+2022-10-04 22:33:57.772 INFO [main] [com.solvd.hospital.contollers.Main.main(Main.java:40)] - L.Pu 22 77
+2022-10-04 22:35:07.957 INFO [main] [com.solvd.hospital.contollers.Main.main(Main.java:33)] - Paracetamol
+2022-10-04 22:35:07.988 INFO [main] [com.solvd.hospital.contollers.Main.main(Main.java:40)] - L.Pu 22 77
+2022-10-04 22:35:08.004 ERROR [main] [com.solvd.hospital.jaxb.UserJaxB.getFromXml(UserJaxB.java:27)] - java.io.FileNotFoundException: .\src\main\resources\user.xml (Не удается найти указанный файл)
+2022-10-04 22:35:25.586 INFO [main] [com.solvd.hospital.contollers.Main.main(Main.java:33)] - Paracetamol
+2022-10-04 22:35:25.608 INFO [main] [com.solvd.hospital.contollers.Main.main(Main.java:40)] - L.Pu 22 77
+2022-10-04 22:35:25.624 INFO [main] [com.solvd.hospital.contollers.Main.main(Main.java:42)] - Korniychuk

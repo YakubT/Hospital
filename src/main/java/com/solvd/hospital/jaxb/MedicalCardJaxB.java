@@ -17,7 +17,7 @@ public class MedicalCardJaxB {
 
     public static MedicalCard getFromXml(String path) {
         try {
-            JAXBContext context = JAXBContext.newInstance(MedicalCardJaxB.class);
+            JAXBContext context = JAXBContext.newInstance(MedicalCard.class);
             MedicalCard medicalCard;
             try {
                 medicalCard =(MedicalCard) context.createUnmarshaller().unmarshal(new FileReader(path));
