@@ -1,5 +1,7 @@
 package com.solvd.hospital.models.classes;
 
+import org.codehaus.jackson.annotate.JsonProperty;
+
 import javax.xml.bind.annotation.XmlAccessorType;
 import javax.xml.bind.annotation.XmlAccessType;
 import javax.xml.bind.annotation.XmlAttribute;
@@ -13,12 +15,15 @@ import javax.xml.bind.annotation.XmlType;
 public class Allergy {
 
     @XmlAttribute
+    @JsonProperty
     private int id;
 
     @XmlElement (name = "nameOfDrug")
+    @JsonProperty
     private String nameOfDrug;
 
     @XmlElement (name = "medicalCardId")
+    @JsonProperty
     private int medicalCardId;
 
     public Allergy(){

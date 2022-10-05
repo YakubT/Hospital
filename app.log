@@ -1660,3 +1660,94 @@ Property role appears in @XmlType.propOrder, but no such property exists. Maybe 
 2022-10-04 22:35:25.586 INFO [main] [com.solvd.hospital.contollers.Main.main(Main.java:33)] - Paracetamol
 2022-10-04 22:35:25.608 INFO [main] [com.solvd.hospital.contollers.Main.main(Main.java:40)] - L.Pu 22 77
 2022-10-04 22:35:25.624 INFO [main] [com.solvd.hospital.contollers.Main.main(Main.java:42)] - Korniychuk
+2022-10-04 22:37:45.201 INFO [main] [com.solvd.hospital.contollers.Main.main(Main.java:33)] - Paracetamol
+2022-10-04 22:37:45.232 INFO [main] [com.solvd.hospital.contollers.Main.main(Main.java:40)] - L.Pu 22 77
+2022-10-04 22:37:45.248 INFO [main] [com.solvd.hospital.contollers.Main.main(Main.java:42)] - Korniychuk
+2022-10-04 22:37:52.964 INFO [main] [com.solvd.hospital.contollers.Main.main(Main.java:33)] - Paracetamol
+2022-10-04 22:37:53.011 INFO [main] [com.solvd.hospital.contollers.Main.main(Main.java:40)] - L.Pu 22 77
+2022-10-04 22:37:53.011 INFO [main] [com.solvd.hospital.contollers.Main.main(Main.java:42)] - Korniychuk
+2022-10-04 22:38:27.943 INFO [main] [com.solvd.hospital.contollers.Main.main(Main.java:33)] - Paracetamol
+2022-10-04 22:38:27.974 INFO [main] [com.solvd.hospital.contollers.Main.main(Main.java:40)] - L.Pu 22 77
+2022-10-04 22:38:27.989 INFO [main] [com.solvd.hospital.contollers.Main.main(Main.java:42)] - Korniychuk
+2022-10-05 11:20:57.357 INFO [main] [com.solvd.hospital.contollers.Main.main(Main.java:34)] - Paracetamol
+2022-10-05 11:20:57.393 INFO [main] [com.solvd.hospital.contollers.Main.main(Main.java:41)] - L.Pu 22 77
+2022-10-05 11:20:57.393 INFO [main] [com.solvd.hospital.contollers.Main.main(Main.java:43)] - Korniychuk
+2022-10-05 11:20:57.756 DEBUG [main] [org.apache.ibatis.logging.LogFactory.setImplementation(LogFactory.java:128)] - Logging initialized using 'class org.apache.ibatis.logging.log4j2.Log4j2Impl' adapter.
+2022-10-05 11:20:57.772 DEBUG [main] [org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:306)] - PooledDataSource forcefully closed/removed all connections.
+2022-10-05 11:20:57.772 DEBUG [main] [org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:306)] - PooledDataSource forcefully closed/removed all connections.
+2022-10-05 11:20:57.772 DEBUG [main] [org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:306)] - PooledDataSource forcefully closed/removed all connections.
+2022-10-05 11:20:57.772 DEBUG [main] [org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:306)] - PooledDataSource forcefully closed/removed all connections.
+2022-10-05 11:20:57.926 ERROR [main] [com.solvd.hospital.jackson.AllergyJackson.createJson(AllergyJackson.java:40)] - java.io.FileNotFoundException: .\src\main\resources\jackson\allergy.json (Системе не удается найти указанный путь)
+2022-10-05 11:21:26.006 INFO [main] [com.solvd.hospital.contollers.Main.main(Main.java:34)] - Paracetamol
+2022-10-05 11:21:26.044 INFO [main] [com.solvd.hospital.contollers.Main.main(Main.java:41)] - L.Pu 22 77
+2022-10-05 11:21:26.060 INFO [main] [com.solvd.hospital.contollers.Main.main(Main.java:43)] - Korniychuk
+2022-10-05 11:21:26.294 DEBUG [main] [org.apache.ibatis.logging.LogFactory.setImplementation(LogFactory.java:128)] - Logging initialized using 'class org.apache.ibatis.logging.log4j2.Log4j2Impl' adapter.
+2022-10-05 11:21:26.300 DEBUG [main] [org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:306)] - PooledDataSource forcefully closed/removed all connections.
+2022-10-05 11:21:26.300 DEBUG [main] [org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:306)] - PooledDataSource forcefully closed/removed all connections.
+2022-10-05 11:21:26.300 DEBUG [main] [org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:306)] - PooledDataSource forcefully closed/removed all connections.
+2022-10-05 11:21:26.300 DEBUG [main] [org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:306)] - PooledDataSource forcefully closed/removed all connections.
+2022-10-05 11:25:54.570 INFO [main] [com.solvd.hospital.contollers.Main.main(Main.java:34)] - Paracetamol
+2022-10-05 11:25:54.617 INFO [main] [com.solvd.hospital.contollers.Main.main(Main.java:41)] - L.Pu 22 77
+2022-10-05 11:25:54.617 INFO [main] [com.solvd.hospital.contollers.Main.main(Main.java:43)] - Korniychuk
+2022-10-05 11:25:54.933 DEBUG [main] [org.apache.ibatis.logging.LogFactory.setImplementation(LogFactory.java:128)] - Logging initialized using 'class org.apache.ibatis.logging.log4j2.Log4j2Impl' adapter.
+2022-10-05 11:25:54.949 DEBUG [main] [org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:306)] - PooledDataSource forcefully closed/removed all connections.
+2022-10-05 11:25:54.949 DEBUG [main] [org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:306)] - PooledDataSource forcefully closed/removed all connections.
+2022-10-05 11:25:54.949 DEBUG [main] [org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:306)] - PooledDataSource forcefully closed/removed all connections.
+2022-10-05 11:25:54.949 DEBUG [main] [org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:306)] - PooledDataSource forcefully closed/removed all connections.
+2022-10-05 11:26:06.750 INFO [main] [com.solvd.hospital.contollers.Main.main(Main.java:34)] - Paracetamol
+2022-10-05 11:26:06.788 INFO [main] [com.solvd.hospital.contollers.Main.main(Main.java:41)] - L.Pu 22 77
+2022-10-05 11:26:06.788 INFO [main] [com.solvd.hospital.contollers.Main.main(Main.java:43)] - Korniychuk
+2022-10-05 11:26:07.020 DEBUG [main] [org.apache.ibatis.logging.LogFactory.setImplementation(LogFactory.java:128)] - Logging initialized using 'class org.apache.ibatis.logging.log4j2.Log4j2Impl' adapter.
+2022-10-05 11:26:07.036 DEBUG [main] [org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:306)] - PooledDataSource forcefully closed/removed all connections.
+2022-10-05 11:26:07.036 DEBUG [main] [org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:306)] - PooledDataSource forcefully closed/removed all connections.
+2022-10-05 11:26:07.036 DEBUG [main] [org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:306)] - PooledDataSource forcefully closed/removed all connections.
+2022-10-05 11:26:07.036 DEBUG [main] [org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:306)] - PooledDataSource forcefully closed/removed all connections.
+2022-10-05 11:27:12.313 INFO [main] [com.solvd.hospital.contollers.Main.main(Main.java:34)] - Paracetamol
+2022-10-05 11:27:12.344 INFO [main] [com.solvd.hospital.contollers.Main.main(Main.java:41)] - L.Pu 22 77
+2022-10-05 11:27:12.360 INFO [main] [com.solvd.hospital.contollers.Main.main(Main.java:43)] - Korniychuk
+2022-10-05 11:27:12.676 DEBUG [main] [org.apache.ibatis.logging.LogFactory.setImplementation(LogFactory.java:128)] - Logging initialized using 'class org.apache.ibatis.logging.log4j2.Log4j2Impl' adapter.
+2022-10-05 11:27:12.683 DEBUG [main] [org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:306)] - PooledDataSource forcefully closed/removed all connections.
+2022-10-05 11:27:12.683 DEBUG [main] [org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:306)] - PooledDataSource forcefully closed/removed all connections.
+2022-10-05 11:27:12.683 DEBUG [main] [org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:306)] - PooledDataSource forcefully closed/removed all connections.
+2022-10-05 11:27:12.683 DEBUG [main] [org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:306)] - PooledDataSource forcefully closed/removed all connections.
+2022-10-05 11:28:33.058 INFO [main] [com.solvd.hospital.contollers.Main.main(Main.java:34)] - Paracetamol
+2022-10-05 11:28:33.089 INFO [main] [com.solvd.hospital.contollers.Main.main(Main.java:41)] - L.Pu 22 77
+2022-10-05 11:28:33.089 INFO [main] [com.solvd.hospital.contollers.Main.main(Main.java:43)] - Korniychuk
+2022-10-05 11:28:33.325 DEBUG [main] [org.apache.ibatis.logging.LogFactory.setImplementation(LogFactory.java:128)] - Logging initialized using 'class org.apache.ibatis.logging.log4j2.Log4j2Impl' adapter.
+2022-10-05 11:28:33.325 DEBUG [main] [org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:306)] - PooledDataSource forcefully closed/removed all connections.
+2022-10-05 11:28:33.325 DEBUG [main] [org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:306)] - PooledDataSource forcefully closed/removed all connections.
+2022-10-05 11:28:33.325 DEBUG [main] [org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:306)] - PooledDataSource forcefully closed/removed all connections.
+2022-10-05 11:28:33.325 DEBUG [main] [org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:306)] - PooledDataSource forcefully closed/removed all connections.
+2022-10-05 11:29:19.310 INFO [main] [com.solvd.hospital.contollers.Main.main(Main.java:34)] - Paracetamol
+2022-10-05 11:29:19.346 INFO [main] [com.solvd.hospital.contollers.Main.main(Main.java:41)] - L.Pu 22 77
+2022-10-05 11:29:19.346 INFO [main] [com.solvd.hospital.contollers.Main.main(Main.java:43)] - Korniychuk
+2022-10-05 11:29:19.581 DEBUG [main] [org.apache.ibatis.logging.LogFactory.setImplementation(LogFactory.java:128)] - Logging initialized using 'class org.apache.ibatis.logging.log4j2.Log4j2Impl' adapter.
+2022-10-05 11:29:19.597 DEBUG [main] [org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:306)] - PooledDataSource forcefully closed/removed all connections.
+2022-10-05 11:29:19.597 DEBUG [main] [org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:306)] - PooledDataSource forcefully closed/removed all connections.
+2022-10-05 11:29:19.597 DEBUG [main] [org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:306)] - PooledDataSource forcefully closed/removed all connections.
+2022-10-05 11:29:19.597 DEBUG [main] [org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:306)] - PooledDataSource forcefully closed/removed all connections.
+2022-10-05 11:30:23.367 INFO [main] [com.solvd.hospital.contollers.Main.main(Main.java:34)] - Paracetamol
+2022-10-05 11:30:23.416 INFO [main] [com.solvd.hospital.contollers.Main.main(Main.java:41)] - L.Pu 22 77
+2022-10-05 11:30:23.424 INFO [main] [com.solvd.hospital.contollers.Main.main(Main.java:43)] - Korniychuk
+2022-10-05 11:30:23.656 DEBUG [main] [org.apache.ibatis.logging.LogFactory.setImplementation(LogFactory.java:128)] - Logging initialized using 'class org.apache.ibatis.logging.log4j2.Log4j2Impl' adapter.
+2022-10-05 11:30:23.658 DEBUG [main] [org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:306)] - PooledDataSource forcefully closed/removed all connections.
+2022-10-05 11:30:23.666 DEBUG [main] [org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:306)] - PooledDataSource forcefully closed/removed all connections.
+2022-10-05 11:30:23.666 DEBUG [main] [org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:306)] - PooledDataSource forcefully closed/removed all connections.
+2022-10-05 11:30:23.666 DEBUG [main] [org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:306)] - PooledDataSource forcefully closed/removed all connections.
+2022-10-05 11:30:45.100 INFO [main] [com.solvd.hospital.contollers.Main.main(Main.java:34)] - Paracetamol
+2022-10-05 11:30:45.132 INFO [main] [com.solvd.hospital.contollers.Main.main(Main.java:41)] - L.Pu 22 77
+2022-10-05 11:30:45.138 INFO [main] [com.solvd.hospital.contollers.Main.main(Main.java:43)] - Korniychuk
+2022-10-05 11:30:45.370 DEBUG [main] [org.apache.ibatis.logging.LogFactory.setImplementation(LogFactory.java:128)] - Logging initialized using 'class org.apache.ibatis.logging.log4j2.Log4j2Impl' adapter.
+2022-10-05 11:30:45.385 DEBUG [main] [org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:306)] - PooledDataSource forcefully closed/removed all connections.
+2022-10-05 11:30:45.385 DEBUG [main] [org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:306)] - PooledDataSource forcefully closed/removed all connections.
+2022-10-05 11:30:45.385 DEBUG [main] [org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:306)] - PooledDataSource forcefully closed/removed all connections.
+2022-10-05 11:30:45.385 DEBUG [main] [org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:306)] - PooledDataSource forcefully closed/removed all connections.
+2022-10-05 11:31:36.394 INFO [main] [com.solvd.hospital.contollers.Main.main(Main.java:34)] - Paracetamol
+2022-10-05 11:31:36.432 INFO [main] [com.solvd.hospital.contollers.Main.main(Main.java:41)] - L.Pu 22 77
+2022-10-05 11:31:36.432 INFO [main] [com.solvd.hospital.contollers.Main.main(Main.java:43)] - Korniychuk
+2022-10-05 11:31:36.670 DEBUG [main] [org.apache.ibatis.logging.LogFactory.setImplementation(LogFactory.java:128)] - Logging initialized using 'class org.apache.ibatis.logging.log4j2.Log4j2Impl' adapter.
+2022-10-05 11:31:36.670 DEBUG [main] [org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:306)] - PooledDataSource forcefully closed/removed all connections.
+2022-10-05 11:31:36.670 DEBUG [main] [org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:306)] - PooledDataSource forcefully closed/removed all connections.
+2022-10-05 11:31:36.670 DEBUG [main] [org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:306)] - PooledDataSource forcefully closed/removed all connections.
+2022-10-05 11:31:36.670 DEBUG [main] [org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:306)] - PooledDataSource forcefully closed/removed all connections.
+2022-10-05 11:31:36.855 INFO [main] [com.solvd.hospital.contollers.Main.main(Main.java:47)] - Paracetamol
