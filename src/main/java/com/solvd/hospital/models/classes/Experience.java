@@ -1,13 +1,16 @@
 package com.solvd.hospital.models.classes;
 
+import org.codehaus.jackson.annotate.JsonProperty;
+
 public class Experience {
-
+    @JsonProperty
     private int id;
-
+    @JsonProperty
     private String description;
-
+    @JsonProperty
     private int countYears;
 
+    @JsonProperty
     private int specialistId;
 
     public Experience() {

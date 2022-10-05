@@ -38,6 +38,7 @@ public class Main {
         User user = userService.getById(10);
         UserJaxB.createXml(user,"./src/main/resources/jaxb/user.xml");
          */
+        /*
         MedicalCard medicalCard = MedicalCardJaxB.getFromXml("./src/main/resources/jaxb/MedicalCard.xml");
         LOGGER.info(medicalCard.getAddress());
         User user = UserJaxB.getFromXml("./src/main/resources/jaxb/user.xml");
@@ -51,5 +52,6 @@ public class Main {
         List<User> listUsers = new ArrayList<>();
         listUsers.add(user);
         UserJackson.createJson(listUsers,"./src/main/resources/jackson/users.json");
+         */
     }
 }
