@@ -1,6 +1,7 @@
 package com.solvd.hospital.contollers;
 
 import com.solvd.hospital.jackson.AllergyJackson;
+import com.solvd.hospital.jackson.UserJackson;
 import com.solvd.hospital.jaxb.AllergyJaxB;
 import com.solvd.hospital.jaxb.MedicalCardJaxB;
 import com.solvd.hospital.jaxb.UserJaxB;
@@ -33,7 +34,7 @@ public class Main {
         Allergy allergy = AllergyJaxB.getFromXml("./src/main/resources/jaxb/allergy.xml");
         LOGGER.info(allergy.getNameOfDrug());
         /*
-        UserService userService = new UserService();
+
         User user = userService.getById(10);
         UserJaxB.createXml(user,"./src/main/resources/jaxb/user.xml");
          */
@@ -45,5 +46,10 @@ public class Main {
         List<Allergy> list = new ArrayList<>();
         list.add(allergy);
         LOGGER.info(AllergyJackson.getFromJson("./src/main/resources/jackson/allergy.json").get(0).getNameOfDrug());
+        UserService userService = new UserService();
+        user = userService.getById(14);
+        List<User> listUsers = new ArrayList<>();
+        listUsers.add(user);
+        UserJackson.createJson(listUsers,"./src/main/resources/jackson/users.json");
     }
 }

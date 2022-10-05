@@ -8,21 +8,27 @@
     </update>
 
     <select id="getById" parameterType="int" resultMap="UserGet">
-        Select id, login, password, name, surname, middle_name, role From Users Where id = #{id}
+        Select users.id, login, password, name, surname, middle_name, role,
+        records.id From Users LEFT JOIN Records on users.id = records.patient_id
+        Where users.id = #{id}
     </select>
 
-    <select id="getUsers" parameterType="int" resultMap="UserGet">
-    Select id, login, password, name, surname, middle_name, role From Users
+    <select id="getUsers" resultMap="UserGet">
+        Select users.id, login, password, name, surname, middle_name, role,
+        records.id From Users LEFT JOIN Records on users.id = records.patient_id
     </select>
 
     <resultMap id="UserGet" type="com.solvd.hospital.models.classes.User" autoMapping="false">
-        <id column="id" property="id"/>
+        <id column="users.id" property="id"/>
         <result column="login" property="login"/>
         <result column="password" property="password"/>
         <result column="name" property="name"/>
         <result column="surname" property="surname"/>
         <result column="middle_name" property="middleName"/>
         <result column="role" property ="role"/>
+        <collection property="listOfRecordsId" ofType="INTEGER">
+            <id column="records.id" property="id"/>
+        </collection>
     </resultMap>
 
     <update id="remove" parameterType = "int">

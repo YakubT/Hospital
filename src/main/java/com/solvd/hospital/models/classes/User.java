@@ -1,5 +1,7 @@
 package com.solvd.hospital.models.classes;
 
+import org.codehaus.jackson.annotate.JsonProperty;
+
 import javax.xml.bind.annotation.*;
 import java.util.List;
 
@@ -8,27 +10,34 @@ import java.util.List;
 @XmlAccessorType(XmlAccessType.FIELD)
 public  class User {
     @XmlAttribute
+    @JsonProperty
     private int id;
 
     @XmlElement (name = "login")
+    @JsonProperty
     private String login;
 
     @XmlElement (name = "password")
+    @JsonProperty
     private String password;
 
     @XmlElement (name = "name")
+    @JsonProperty
     private String name;
 
     @XmlElement (name = "middleName")
     private String middleName;
 
     @XmlElement (name = "surname")
+    @JsonProperty
     private String surname;
 
     @XmlTransient
-    private List<Record> listOfRecords;
+    @JsonProperty
+    private List<Integer> listOfRecordsId;
 
     @XmlElement
+    @JsonProperty
     private int role;
 
     public User() {
@@ -93,12 +102,12 @@ public  class User {
         this.surname = surname;
     }
 
-    public List<Record> getListOfRecords() {
-        return listOfRecords;
+    public List<Integer> getListOfRecordsId() {
+        return listOfRecordsId;
     }
 
-    public void setListOfRecords(List<Record> listOfRecords) {
-        this.listOfRecords = listOfRecords;
+    public void setListOfRecords(List<Integer> listOfRecordsId) {
+        this.listOfRecordsId = listOfRecordsId;
     }
 
     public int getRole() {

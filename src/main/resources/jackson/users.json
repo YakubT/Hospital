@@ -1,0 +1,10 @@
+[ {
+  "id" : 0,
+  "login" : "user",
+  "password" : "pass",
+  "name" : "Anatolii",
+  "middleName" : "Serhiyovych",
+  "surname" : "Yakubyshyn",
+  "listOfRecordsId" : [ 1, 2, 3, 4 ],
+  "role" : 2
+} ]
