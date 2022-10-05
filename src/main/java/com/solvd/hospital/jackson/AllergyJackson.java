@@ -15,7 +15,7 @@ import org.codehaus.jackson.type.JavaType;
 
 import com.solvd.hospital.models.classes.Allergy;
 public class AllergyJackson {
-    
+
     private static final Logger LOGGER = LogManager.getLogger(AllergyJackson.class);
 
     public static List<Allergy> getFromJson(String path){

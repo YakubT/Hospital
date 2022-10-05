@@ -1,6 +1,7 @@
 package com.solvd.hospital.contollers;
 
 import com.solvd.hospital.jackson.AllergyJackson;
+import com.solvd.hospital.jackson.ExperiencesJackson;
 import com.solvd.hospital.jackson.UserJackson;
 import com.solvd.hospital.jaxb.AllergyJaxB;
 import com.solvd.hospital.jaxb.MedicalCardJaxB;
@@ -53,5 +54,14 @@ public class Main {
         listUsers.add(user);
         UserJackson.createJson(listUsers,"./src/main/resources/jackson/users.json");
          */
+        /*
+        ExperienceService experienceService = new ExperienceService();
+        Experience experience = experienceService.getById(2);
+        List<Experience> experiences = new ArrayList<Experience>();
+        experiences.add(experience);
+        */
+       Experience experience =  ExperiencesJackson.getFromJson("./src/main/resources/jackson/experience.json").get(0);
+       LOGGER.info(experience.getDescription());
+
     }
 }
